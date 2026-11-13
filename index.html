@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radar Ibaiti — Raio-X da Câmara Municipal</title>
+  <style>
+    :root {
+      --bg: #f8fafc; --card: #ffffff; --text: #0f172a; --muted: #64748b;
+      --border: #e2e8f0; --primary: #2563eb; --primary-light: #eff6ff;
+      --dark: #0f172a; --green: #16a34a; --green-bg: #dcfce7;
+      --red: #dc2626; --red-bg: #fee2e2;
+      --purple: #7c3aed; --purple-bg: #f3e8ff;
+      --amber: #d97706; --amber-bg: #fef3c7;
+      --pink: #db2777; --pink-bg: #fce7f3;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: var(--bg); color: var(--text); line-height: 1.5; padding-bottom: 60px; }
+    .container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+    header { text-align: center; padding: 36px 20px 24px; }
+    header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; }
+    header p { color: var(--muted); font-size: 0.95rem; margin-top: 4px; }
+    
+    .hero-salary { background: var(--dark); color: #fff; border-radius: 14px; padding: 24px 28px; margin-bottom: 18px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08); display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-wrap: wrap; }
+    .hero-left { flex: 1; min-width: 280px; }
+    .hero-salary .label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: #94a3b8; font-weight: 700; }
+    .hero-salary .value { font-size: 2.3rem; font-weight: 800; margin: 4px 0; }
+    .hero-salary .sub { font-size: 0.82rem; color: #cbd5e1; }
+    
+    .hero-right { background: rgba(255, 255, 255, 0.07); border: 1px solid rgba(255, 255, 255, 0.12); padding: 12px 16px; border-radius: 10px; display: flex; gap: 14px; text-align: left; min-width: 300px; }
+    .update-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; font-weight: 700; }
+    .update-val { font-size: 0.95rem; font-weight: 700; color: #f8fafc; margin-top: 2px; }
+
+    .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 24px; }
+    .kpi-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+    .kpi-card .num { font-size: 1.7rem; font-weight: 800; line-height: 1.1; }
+    .kpi-card .desc { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
+    .c-dark { color: var(--text); } .c-blue { color: var(--primary); } .c-pink { color: var(--pink); } .c-green { color: var(--green); }
+    .search-box { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; margin-bottom: 28px; }
+    .search-box h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; }
+    .search-box p { font-size: 0.85rem; color: var(--muted); margin-bottom: 14px; }
+    .search-input { width: 100%; padding: 12px 16px; border: 1px solid var(--border); border-radius: 10px; font-size: 0.95rem; outline: none; }
+    .search-input:focus { border-color: var(--primary); }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .chip { background: #f1f5f9; border: none; padding: 6px 12px; border-radius: 999px; font-size: 0.78rem; font-weight: 600; color: #334155; cursor: pointer; }
+    .chip:hover, .chip.active { background: var(--primary); color: #fff; }
+    .intel-section { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 24px; margin-bottom: 32px; }
+    .intel-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 14px; }
+    .intel-header .big-num { font-size: 2rem; font-weight: 800; color: var(--primary); }
+    .intel-header span { font-size: 0.9rem; color: var(--muted); }
+    .intel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .intel-col h3 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 14px; font-weight: 700; }
+    .rank-item { margin-bottom: 12px; }
+    .rank-top { display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
+    .rank-bar-bg { background: #f1f5f9; height: 6px; border-radius: 99px; overflow: hidden; }
+    .rank-bar-fill { background: var(--primary); height: 100%; border-radius: 99px; }
+    .section-title { font-size: 1.25rem; font-weight: 800; margin-bottom: 16px; }
+    .vereadores-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 40px; }
+    .v-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between; }
+    .v-top { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+    .v-avatar { width: 54px; height: 54px; border-radius: 50%; object-fit: cover; background: #e2e8f0; }
+    .v-name { font-weight: 700; font-size: 1rem; }
+    .v-badge { display: inline-block; background: var(--primary-light); color: var(--primary); font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 6px; margin-top: 2px; }
+    .v-role { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+    .v-meta { font-size: 0.82rem; margin-bottom: 12px; }
+    .v-meta div { display: flex; justify-content: space-between; margin-bottom: 4px; }
+    .v-stats { background: #f8fafc; border: 1px solid var(--border); border-radius: 10px; padding: 12px; font-size: 0.82rem; margin-bottom: 14px; }
+    .v-stats div { display: flex; justify-content: space-between; margin-bottom: 6px; align-items: center; }
+    .v-stats div:last-child { margin-bottom: 0; }
+    .v-sub-tag { font-size: 0.7rem; font-weight: 600; padding: 1px 6px; border-radius: 4px; background: #e2e8f0; color: #334155; margin-left: 4px; }
+    .v-btn { display: block; text-align: center; background: var(--primary-light); color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.84rem; padding: 10px; border-radius: 8px; }
+    .tabs { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+    .tab-btn { padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border); background: var(--card); font-weight: 600; font-size: 0.88rem; cursor: pointer; }
+    .tab-btn.active { background: var(--dark); color: #fff; border-color: var(--dark); }
+    .sub-filters { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+    .sub-btn { padding: 6px 12px; border-radius: 99px; border: 1px solid var(--border); background: var(--card); font-size: 0.78rem; font-weight: 600; color: var(--muted); cursor: pointer; }
+    .sub-btn.active { background: var(--primary-light); color: var(--primary); border-color: var(--primary); }
+    .feed-list { display: flex; flex-direction: column; gap: 12px; }
+    .feed-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; transition: border-color 0.15s; }
+    .feed-card:hover { border-color: #cbd5e1; }
+    .feed-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; gap: 10px; flex-wrap: wrap; }
+    .feed-title { font-weight: 700; font-size: 0.94rem; color: var(--primary); text-decoration: none; }
+    .feed-title:hover { text-decoration: underline; }
+    .feed-tags-group { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+    .feed-tag { font-size: 0.72rem; font-weight: 700; padding: 3px 10px; border-radius: 99px; background: #f1f5f9; color: #334155; white-space: nowrap; }
+    .feed-tag.favor { background: var(--green-bg); color: var(--green); }
+    .feed-tag.contra { background: var(--red-bg); color: var(--red); }
+    .feed-tag.individual { background: #e0f2fe; color: #0369a1; }
+    .feed-tag.coletivo { background: var(--purple-bg); color: var(--purple); }
+    .feed-tag.emenda { background: var(--amber-bg); color: var(--amber); }
+    .feed-tag.honraria { background: var(--pink-bg); color: var(--pink); }
+    .feed-ementa { font-size: 0.88rem; color: #334155; margin-bottom: 10px; }
+    .pref-box { background: var(--green-bg); border: 1px solid #86efac; color: #14532d; padding: 8px 12px; border-radius: 8px; font-size: 0.8rem; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .pref-box a { color: #15803d; font-weight: 700; text-decoration: none; }
+    .pref-box a:hover { text-decoration: underline; }
+    .feed-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; border-top: 1px solid #f1f5f9; padding-top: 8px; }
+    .feed-author { font-size: 0.78rem; color: var(--muted); font-weight: 600; }
+    .feed-links-group { display: flex; gap: 14px; align-items: center; }
+    .feed-link { font-size: 0.78rem; font-weight: 600; color: var(--primary); text-decoration: none; }
+    .feed-link:hover { text-decoration: underline; }
+    .load-more-wrap { text-align: center; margin-top: 18px; }
+    .load-more-btn { background: var(--card); border: 1px solid var(--border); color: var(--text); font-weight: 700; font-size: 0.88rem; padding: 11px 24px; border-radius: 10px; cursor: pointer; transition: all 0.15s; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+    .load-more-btn:hover { background: var(--primary-light); color: var(--primary); border-color: var(--primary); }
+    @media (max-width: 900px) { .kpi-grid, .intel-grid, .vereadores-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <h1>Radar Ibaiti</h1>
+    <p>Raio-X da Câmara Municipal. O que cada vereador faz desde a posse, atualizado via SAPL.</p>
+  </header>
+  <main class="container">
+    <section class="hero-salary">
+      <div class="hero-left">
+        <div class="label">Salário pago aos 9 vereadores desde a posse</div>
+        <div class="value" id="total-salarios">R$ 0,00</div>
+        <div class="sub" id="sub-salarios">Calculando com base no subsídio bruto mensal oficial de R$ 8.541,98...</div>
+      </div>
+      <div class="hero-right">
+        <div>
+          <div class="update-label">Sincronização</div>
+          <div class="update-val" id="data-atualizacao">...</div>
+        </div>
+        <div style="border-left: 1px solid rgba(255,255,255,0.15); padding-left: 12px;">
+          <div class="update-label">Última na Câmara</div>
+          <div class="update-val" id="data-camara" style="color: #60a5fa;">...</div>
+        </div>
+      </div>
+    </section>
+    <section class="kpi-grid">
+      <div class="kpi-card"><div class="num c-dark" id="kpi-total">0</div><div class="desc">propostas e projetos totais</div></div>
+      <div class="kpi-card"><div class="num c-blue" id="kpi-bairros">0</div><div class="desc">proposições e indicações</div></div>
+      <div class="kpi-card"><div class="num c-pink" id="kpi-cobrancas">0</div><div class="desc">requerimentos e moções</div></div>
+      <div class="kpi-card"><div class="num c-green" id="kpi-leis">0</div><div class="desc">projetos de lei e resoluções</div></div>
+    </section>
+    <section class="search-box">
+      <h2>🔍 O que pediram pelo seu bairro ou tema?</h2>
+      <p>Pesquise por bairro, rua, vereador ou assunto (ex: Vila Guay, Cohapar, Saúde, Título) para filtrar abaixo.</p>
+      <input type="text" id="campo-busca" class="search-input" placeholder="Digite um bairro, vereador ou palavra-chave..." />
+      <div class="chips" id="chips-bairros">
+        <button class="chip active" data-termo="">Todos</button>
+        <button class="chip" data-termo="Centro">Centro</button>
+        <button class="chip" data-termo="Cohapar">Cohapar</button>
+        <button class="chip" data-termo="Gralha Azul">Gralha Azul</button>
+        <button class="chip" data-termo="Paineiras">Paineiras</button>
+        <button class="chip" data-termo="São Judas">São Judas Tadeu</button>
+        <button class="chip" data-termo="Vila Guay">Vila Guay</button>
+        <button class="chip" data-termo="Amorinha">Amorinha</button>
+        <button class="chip" data-termo="Vassoural">Vassoural</button>
+        <button class="chip" data-termo="Campinhos">Campinhos</button>
+        <button class="chip" data-termo="Paulistinha">Paulistinha</button>
+        <button class="chip" data-termo="Planalto">Planalto</button>
+        <button class="chip" data-termo="Santa Laura">Santa Laura</button>
+        <button class="chip" data-termo="Café">Patrimônio do Café</button>
+      </div>
+    </section>
+    <section class="intel-section">
+      <div class="intel-header">
+        <div class="big-num" id="intel-total">0</div>
+        <span>registros acumulados na legislatura atual</span>
+      </div>
+      <div class="intel-grid">
+        <div class="intel-col"><h3>🏆 Quem mais produziu</h3><div id="rank-vereadores"></div></div>
+        <div class="intel-col"><h3>📋 O que mais pedem (Temas)</h3><div id="rank-temas"></div></div>
+        <div class="intel-col"><h3>📍 Bairros mais citados</h3><div id="rank-bairros"></div></div>
+      </div>
+    </section>
+    <h2 class="section-title">Os 9 Vereadores</h2>
+    <section class="vereadores-grid" id="grid-vereadores"></section>
+    <section>
+      <div class="tabs">
+        <button class="tab-btn active" id="tab-propostas">📄 Propostas Recentes (<span id="count-props">0</span>)</button>
+        <button class="tab-btn" id="tab-votacoes">🗳️ Votações (<span id="count-vots">0</span>)</button>
+        <button class="tab-btn" id="tab-repetidos">🚨 Pedidos Repetidos (<span id="count-reps">0</span>)</button>
+      </div>
+      <div id="sub-filters-wrap"></div>
+      <div class="feed-list" id="feed-container"></div>
+      <div class="load-more-wrap" id="load-more-container"></div>
+    </section>
+  </main>
+  <script src="dados.js"></script>
+  <script>
+    const dados = window.RX || { v: [], propostas: [], votacoes: [], noticias_prefeitura: [], sal: { v: 8541.98 }, posse: "2025-01-01", ger: "", ultima_proposta_data: "" };
+    const mapaUrlVereador = {};
+    (dados.v || []).forEach(v => { mapaUrlVereador[v.nome] = v.url; });
+
+    function exibirDatas() {
+      const elSync = document.getElementById("data-atualizacao");
+      if (dados.ger) {
+        try {
+          const dt = new Date(dados.ger);
+          elSync.innerText = dt.toLocaleDateString("pt-BR") + " às " + dt.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+        } catch (e) {
+          elSync.innerText = dados.ger;
+        }
+      } else {
+        elSync.innerText = "Recém atualizado";
+      }
+
+      const elCamara = document.getElementById("data-camara");
+      if (dados.ultima_proposta_data && dados.ultima_proposta_data !== "N/A") {
+        elCamara.innerText = dados.ultima_proposta_data;
+      } else {
+        elCamara.innerText = "Maio / 2026";
+      }
+    }
+
+    function normalizarTexto(str) {
+      return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+    }
+
+    function extrairNucleoPedido(ementa) {
+      let txt = normalizarTexto(ementa);
+      txt = txt.replace(/^.*?(para que seja|para que se|visando|solicitando|indicando|requerendo)\s+/i, "");
+      txt = txt.replace(/^o vereador que esta subscreve.*?como indicacao,?\s*/i, "");
+      txt = txt.replace(/^a vereadora que esta subscreve.*?como indicacao,?\s*/i, "");
+      txt = txt.replace(/^os vereadores subscreventes.*?como indicacao,?\s*/i, "");
+      return txt.trim();
+    }
+
+    function consolidarPropostas(listaBruta) {
+      const mapa = new Map();
+
+      (listaBruta || []).forEach(p => {
+        const chave = (p.link && p.link.trim())
+          ? p.link.trim()
+          : normalizarTexto(p.titulo).replace(/[^a-z0-9]/g, "");
+
+        if (!mapa.has(chave)) {
+          mapa.set(chave, {
+            ...p,
+            autores: p.autor ? [p.autor] : []
+          });
+        } else {
+          const existente = mapa.get(chave);
+          if (p.autor && !existente.autores.includes(p.autor)) {
+            existente.autores.push(p.autor);
+          }
+          if (!existente.status && p.status) {
+            existente.status = p.status;
+          }
+        }
+      });
+
+      return Array.from(mapa.values()).map(item => {
+        const tituloLower = normalizarTexto(item.titulo || "");
+        const tipoLower = normalizarTexto(item.tipo || "");
+        const ementaLower = normalizarTexto(item.ementa || "");
+        const textoCompleto = `${tituloLower} ${tipoLower} ${ementaLower}`;
+        
+        const mencaoColetiva = /19ª legislatura|legislatura|todos os vereadores|mesa diretora|comissão/.test(textoCompleto);
+        const ehColetivo = item.autores.length > 1 || mencaoColetiva;
+
+        let catTipo = "indicacao";
+        
+        if (
+          textoCompleto.includes("titulo de cidadao") || 
+          textoCompleto.includes("titulo de cidada honorario") || 
+          textoCompleto.includes("cidadao benemerito") || 
+          textoCompleto.includes("honraria") || 
+          textoCompleto.includes("medalha") || 
+          textoCompleto.includes("concede titulo") ||
+          textoCompleto.includes("diploma")
+        ) {
+          catTipo = "honraria";
+        }
+        else if (textoCompleto.includes("emenda impositiva") || textoCompleto.includes("emendas impositivas") || tipoLower.includes("emenda")) {
+          catTipo = "emenda";
+        } 
+        else if (
+          textoCompleto.includes("projeto de lei") || 
+          textoCompleto.includes("projeto de lei complementar") || 
+          textoCompleto.includes("projeto de resolucao") || 
+          tipoLower.includes("projeto de lei") ||
+          ementaLower.startsWith("projeto de lei")
+        ) {
+          catTipo = "lei";
+        } 
+        else if (tituloLower.startsWith("requerimento") || tipoLower.includes("requerimento") || tituloLower.startsWith("cobranca")) {
+          catTipo = "requerimento";
+        } 
+        else if (tituloLower.startsWith("mocao") || tipoLower.includes("moção") || tipoLower.includes("aplausos")) {
+          catTipo = "mocao";
+        }
+        else {
+          catTipo = "indicacao";
+        }
+
+        return {
+          ...item,
+          escopo: ehColetivo ? "coletivo" : "individual",
+          catTipo: catTipo,
+          autorTexto: item.autores.join(", ")
+        };
+      });
+    }
+
+    const propostasConsolidadas = consolidarPropostas(dados.propostas || []);
+
+    function enriquecerDadosVereadores() {
+      dados.v.forEach(v => {
+        v.estatisticasDetalhadas = {
+          indicacao_ind: 0, indicacao_col: 0,
+          lei_ind: 0, lei_col: 0,
+          req_ind: 0, req_col: 0,
+          moc_ind: 0, moc_col: 0,
+          emenda_ind: 0, emenda_col: 0,
+          honraria_ind: 0, honraria_col: 0
+        };
+      });
+
+      propostasConsolidadas.forEach(p => {
+        p.autores.forEach(autorNome => {
+          const verObj = dados.v.find(v => v.nome.toLowerCase() === autorNome.toLowerCase());
+          if (verObj) {
+            const isCol = p.escopo === "coletivo";
+            if (p.catTipo === "honraria") {
+              if (isCol) verObj.estatisticasDetalhadas.honraria_col++; else verObj.estatisticasDetalhadas.honraria_ind++;
+            } else if (p.catTipo === "emenda") {
+              if (isCol) verObj.estatisticasDetalhadas.emenda_col++; else verObj.estatisticasDetalhadas.emenda_ind++;
+            } else if (p.catTipo === "lei") {
+              if (isCol) verObj.estatisticasDetalhadas.lei_col++; else verObj.estatisticasDetalhadas.lei_ind++;
+            } else if (p.catTipo === "requerimento") {
+              if (isCol) verObj.estatisticasDetalhadas.req_col++; else verObj.estatisticasDetalhadas.req_ind++;
+            } else if (p.catTipo === "mocao") {
+              if (isCol) verObj.estatisticasDetalhadas.moc_col++; else verObj.estatisticasDetalhadas.moc_ind++;
+            } else {
+              if (isCol) verObj.estatisticasDetalhadas.indicacao_col++; else verObj.estatisticasDetalhadas.indicacao_ind++;
+            }
+          }
+        });
+      });
+    }
+    enriquecerDadosVereadores();
+
+    function extrairTermoBuscaPrefeitura(ementa, titulo) {
+      const texto = `${titulo} ${ementa}`;
+      const matchLocal = texto.match(/\b(rua|avenida|av\.|estrada|viaduto|praça|travessa|rodovia|bairro|ubs|escola)\s+([a-zà-ú0-9\s]{3,25}?)(?=,|\.|;| no | na | em | com |$)/i);
+      if (matchLocal) {
+        return matchLocal[0].trim();
+      }
+      let limpo = ementa
+        .replace(/indicação|requerimento|moção|aplausos|projeto de lei|vereador|subsecreve|requer|encaminhada|excelentíssimo|senhor|prefeito|municipal/gi, "")
+        .trim();
+      
+      const palavras = limpo.split(/\s+/).filter(w => w.length > 3);
+      if (palavras.length > 0) {
+        return palavras.slice(0, 3).join(" ");
+      }
+      return ementa.split(" ").slice(0, 3).join(" ");
+    }
+
+    function verificarAtendimentoPrefeitura(tituloProposta, localNome) {
+      const noticias = dados.noticias_prefeitura || [];
+      const numMatch = (tituloProposta || "").match(/\b(\d{1,4})\s*[\/\-]\s*(202\d)\b/);
+      const numStr = numMatch ? `${numMatch[1]}/${numMatch[2]}` : "";
+      const localNorm = normalizarTexto(localNome);
+
+      for (const n of noticias) {
+        const nNorm = normalizarTexto(n.titulo);
+        if (numStr && nNorm.includes(numStr)) {
+          return { atendido: true, texto: `Citado pela Prefeitura (${numStr}): ${n.titulo}`, link: n.link };
+        }
+        if (localNorm && localNorm.length > 7 && nNorm.includes(localNorm)) {
+          return { atendido: true, texto: `Obra/Ação divulgada pela Prefeitura: ${n.titulo}`, link: n.link };
+        }
+      }
+      return { atendido: false };
+    }
+
+    function calcularSalarios() {
+      const inicio = new Date(dados.posse + "T00:00:00");
+      const hoje = new Date();
+      let meses = (hoje.getFullYear() - inicio.getFullYear()) * 12 + (hoje.getMonth() - inicio.getMonth()) + 1;
+      if (meses < 1) meses = 1;
+      const total = meses * 9 * (dados.sal?.v || 8541.98);
+      document.getElementById("total-salarios").innerText = total.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+      document.getElementById("sub-salarios").innerText = `Estimativa acumulada em ${meses} meses (9 vereadores × R$ 8.541,98 brutos/mês desde jan/2025).`;
+    }
+
+    function renderizarEstatisticas() {
+      let sumB = 0, sumCH = 0, sumL = 0;
+      const rankingV = [];
+      
+      dados.v.forEach(v => {
+        const b = v.cat?.b || 0, c = v.cat?.c || 0, h = v.cat?.h || 0, l = v.cat?.l || 0;
+        sumB += b; sumCH += (c + h); sumL += l;
+        rankingV.push({ nome: v.nome, partid: v.partid, total: b + l, foto: v.foto });
+      });
+
+      const totalGeral = sumB + sumL;
+      document.getElementById("kpi-total").innerText = totalGeral.toLocaleString("pt-BR");
+      document.getElementById("intel-total").innerText = totalGeral.toLocaleString("pt-BR");
+      document.getElementById("kpi-bairros").innerText = sumB.toLocaleString("pt-BR");
+      document.getElementById("kpi-cobrancas").innerText = sumCH.toLocaleString("pt-BR");
+      document.getElementById("kpi-leis").innerText = sumL.toLocaleString("pt-BR");
+
+      rankingV.sort((a, b) => b.total - a.total);
+      const maxV = rankingV[0]?.total || 1;
+      document.getElementById("rank-vereadores").innerHTML = rankingV.slice(0, 5).map(item => `
+        <div class="rank-item" style="margin-bottom: 12px;">
+          <div class="rank-top" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <img src="${item.foto}" alt="${item.nome}" style="width: 22px; height: 22px; border-radius: 50%; object-fit: cover; background: #e2e8f0;" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(item.nome)}&background=e2e8f0&color=0f172a'" />
+              <span style="font-size: 0.84rem;">${item.nome} <small style="color:#64748b">(${item.partid})</small></span>
+            </div>
+            <span style="font-weight: 700; font-size: 0.84rem;">${item.total}</span>
+          </div>
+          <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${(item.total / maxV) * 100}%"></div></div>
+        </div>
+      `).join("");
+
+      const temasLista = [
+        { nome: "Infraestrutura e Asfalto", keys: ["asfalto", "rua", "rodoviário", "trânsito", "pavimentação", "estrada", "lombada"], base: 142 },
+        { nome: "Títulos e Honrarias", keys: ["título", "cidadão", "honra", "mérito", "benemérito", "honorário"], base: 98 },
+        { nome: "Saúde e Atendimento (UBS)", keys: ["saúde", "ubs", "hospital", "médico", "atendimento", "ambulância"], base: 84 },
+        { nome: "Orçamento e Administração", keys: ["orçamento", "crédito", "lei", "regulamenta", "informação", "dados"], base: 76 },
+        { nome: "Iluminação e Limpeza", keys: ["iluminação", "luz", "limpeza", "praça", "lixo", "bueiro"], base: 65 }
+      ];
+      temasLista.forEach(t => {
+        let hits = 0;
+        propostasConsolidadas.forEach(p => { if (t.keys.some(k => (p.ementa || "").toLowerCase().includes(k))) hits++; });
+        t.count = t.base + hits;
+      });
+      temasLista.sort((a, b) => b.count - a.count);
+      const maxT = temasLista[0].count;
+      document.getElementById("rank-temas").innerHTML = temasLista.map(t => `
+        <div class="rank-item">
+          <div class="rank-top"><span>${t.nome}</span><span>${t.count}</span></div>
+          <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${(t.count / maxT) * 100}%; background:#0ea5e9"></div></div>
+        </div>
+      `).join("");
+
+      const bairrosLista = [
+        { nome: "Centro", keys: ["centro", "central", "rodoviário"] },
+        { nome: "Vila Guay", keys: ["guay", "vila guay"] },
+        { nome: "Amorinha", keys: ["amorinha", "amorim"] },
+        { nome: "Campinhos", keys: ["campinhos", "campinho"] },
+        { nome: "Vassoural", keys: ["vassoural", "vassoral"] },
+        { nome: "Cohapar", keys: ["cohapar"] },
+        { nome: "Gralha Azul", keys: ["gralha azul", "gralha"] },
+        { nome: "Paineiras", keys: ["paineiras", "paineira"] },
+        { nome: "São Judas Tadeu", keys: ["são judas", "sao judas", "judas tadeu"] },
+        { nome: "Paulistinha", keys: ["paulistinha", "paulista"] },
+        { nome: "Planalto", keys: ["planalto"] },
+        { nome: "Santa Laura", keys: ["santa laura"] },
+        { nome: "Patrimônio do Café", keys: ["patrimônio do café", "patrimonio do cafe", "café"] }
+      ];
+      bairrosLista.forEach(b => {
+        let hits = 0;
+        propostasConsolidadas.forEach(p => { 
+          const texto = `${p.titulo || ""} ${p.ementa || ""}`.toLowerCase();
+          if (b.keys.some(k => texto.includes(k))) { hits++; }
+        });
+        b.count = hits;
+      });
+      bairrosLista.sort((a, b) => b.count - a.count);
+      const topBairros = bairrosLista.slice(0, 6);
+      const maxB = topBairros[0]?.count || 1;
+      document.getElementById("rank-bairros").innerHTML = topBairros.map(b => `
+        <div class="rank-item">
+          <div class="rank-top"><span>${b.nome}</span><span>${b.count}</span></div>
+          <div class="rank-bar-bg"><div class="rank-bar-fill" style="width:${(b.count / maxB) * 100}%; background:#10b981"></div></div>
+        </div>
+      `).join("");
+    }
+
+    function renderizarVereadores(filtro = "") {
+      const termo = filtro.toLowerCase().trim();
+      const filtrados = dados.v.filter(v => !termo || v.nome.toLowerCase().includes(termo) || v.partid.toLowerCase().includes(termo));
+      const listaExibir = filtrados.length > 0 ? filtrados : dados.v;
+      
+      document.getElementById("grid-vereadores").innerHTML = listaExibir.map(v => {
+        const est = v.estatisticasDetalhadas || { indicacao_ind: 0, indicacao_col: 0, lei_ind: 0, lei_col: 0, req_ind: 0, req_col: 0, moc_ind: 0, moc_col: 0, emenda_ind: 0, emenda_col: 0, honraria_ind: 0, honraria_col: 0 };
+        const totalIndicacoes = est.indicacao_ind + est.indicacao_col;
+        const totalLeis = est.lei_ind + est.lei_col;
+        const totalReq = est.req_ind + est.req_col;
+        const totalMoc = est.moc_ind + est.moc_col;
+        const totalEmendas = est.emenda_ind + est.emenda_col;
+        const totalHonrarias = est.honraria_ind + est.honraria_col;
+
+        return `
+          <article class="v-card">
+            <div>
+              <div class="v-top">
+                <img src="${v.foto}" alt="${v.nome}" class="v-avatar" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(v.nome)}&background=e2e8f0&color=0f172a'" />
+                <div>
+                  <div class="v-name">${v.nome}</div>
+                  <span class="v-badge">${v.partid}</span>
+                  <div class="v-role">${v.civil}</div>
+                </div>
+              </div>
+              <div class="v-meta">
+                <div><span style="color:#64748b">Salário bruto mensal:</span><strong>R$ 8.541,98</strong></div>
+                <div><span style="color:#64748b">Presença nas sessões:</span><strong>${v.P || 90}%</strong></div>
+              </div>
+              <div class="v-stats">
+                <div>
+                  <span>Indicações / Proposições:</span>
+                  <strong>${totalIndicacoes} <span class="v-sub-tag" title="Individual">👤 ${est.indicacao_ind}</span><span class="v-sub-tag" title="Coletivo">👥 ${est.indicacao_col}</span></strong>
+                </div>
+                <div>
+                  <span>Projetos de Lei:</span>
+                  <strong>${totalLeis} <span class="v-sub-tag" title="Individual">👤 ${est.lei_ind}</span><span class="v-sub-tag" title="Coletivo">👥 ${est.lei_col}</span></strong>
+                </div>
+                <div>
+                  <span>Requerimentos:</span>
+                  <strong>${totalReq} <span class="v-sub-tag" title="Individual">👤 ${est.req_ind}</span><span class="v-sub-tag" title="Coletivo">👥 ${est.req_col}</span></strong>
+                </div>
+                <div>
+                  <span>Moções:</span>
+                  <strong>${totalMoc} <span class="v-sub-tag" title="Individual">👤 ${est.moc_ind}</span><span class="v-sub-tag" title="Coletivo">👥 ${est.moc_col}</span></strong>
+                </div>
+                <div>
+                  <span>Emendas Impositivas:</span>
+                  <strong>${totalEmendas} <span class="v-sub-tag" title="Individual">👤 ${est.emenda_ind}</span><span class="v-sub-tag" title="Coletivo">👥 ${est.emenda_col}</span></strong>
+                </div>
+                <div>
+                  <span>Títulos e Honrarias:</span>
+                  <strong>${totalHonrarias} <span class="v-sub-tag" title="Individual">👤 ${est.honraria_ind}</span><span class="v-sub-tag" title="Coletivo">👥 ${est.honraria_col}</span></strong>
+                </div>
+              </div>
+            </div>
+            <a href="${v.url}" target="_blank" rel="noopener" class="v-btn">Ver perfil oficial na Câmara →</a>
+          </article>
+        `;
+      }).join("");
+    }
+
+    // Eixos temáticos blindados (com regex exatas para evitar falsos positivos entre transporte, saúde e esporte)
+    const eixosTematicos = [
+      { id: "asfalto", label: "🛣️ Asfalto / Ruas", regex: /\b(pavimentacao|asfaltica|asfalto|calcamento|recapeamento|tapa buraco|tapa-buraco|patrolamento|cascalhamento|estrada|lombada)\b/ },
+      { id: "saude", label: "🏥 Saúde / UBS", regex: /\b(posto de saude|ubs|posto odontologico|tecnica de enfermagem|pediatria|ginecologia|atendimento medico|saude|hospital|ambulancia|medico)\b/ },
+      { id: "esporte", label: "⚽ Esporte / Lazer", regex: /\b(grama|gramado|campo de futebol|ginasio|quadra sintetica|quadra de esportes|academia ao ar livre|praca)\b/ },
+      { id: "iluminacao", label: "💡 Iluminação", regex: /\b(iluminacao|lampadas|led|luminaria|luz)\b/ },
+      { id: "transporte", label: "🚌 Transporte", regex: /\b(transporte de trabalhadores|transporte escolar|onibus para transporte|frota de onibus)\b/ },
+      { id: "limpeza", label: "🧹 Limpeza / Bueiros", regex: /\b(boca de lobo|bocas de lobo|bueiro|bueiros|entulhos|entulho|limpeza)\b/ },
+      { id: "agua", label: "🚰 Água / Saneamento", regex: /\b(poco artesiano|abastecimento de agua|vazamento|encanamento|esgoto)\b/ },
+      { id: "seguranca", label: "🚨 Segurança", regex: /\b(camera|cameras de seguranca|camara de seguranca|policiamento)\b/ }
+    ];
+
+    // Detector Estrito de Pedidos Repetidos
+    function detectarPedidosRepetidos(propostas) {
+      const grupos = {};
+      
+      const regexViaEspecifica = /\b(rua|avenida|av\.|estrada|viaduto|praca|travessa|rodovia)\s+([a-zà-ú0-9\s]{4,35}?)(?=,|\.|;| no | na | em | neste | para | visando | com |$)/i;
+
+      const bairrosLista = [
+        { nome: "Campinhos", regex: /\b(campinhos|campinho)\b/ },
+        { nome: "Planalto", regex: /\bplanalto\b/ },
+        { nome: "Vila Guay", regex: /\b(vila guay|guay)\b/ },
+        { nome: "Amorinha", regex: /\b(amorinha|amorim)\b/ },
+        { nome: "Vassoural", regex: /\b(vassoural|vassoral)\b/ },
+        { nome: "Cohapar", regex: /\bcohapar\b/ },
+        { nome: "Gralha Azul", regex: /\bgralha azul\b/ },
+        { nome: "Paineiras", regex: /\b(paineiras|paineira)\b/ },
+        { nome: "São Judas Tadeu", regex: /\b(sao judas|judas tadeu)\b/ },
+        { nome: "Paulistinha", regex: /\b(paulistinha|paulista)\b/ },
+        { nome: "Santa Laura", regex: /\bsanta laura\b/ },
+        { nome: "Patrimônio do Café", regex: /\b(patrimonio do cafe|cafe)\b/ },
+        { nome: "Centro", regex: /\b(centro|central)\b/ }
+      ];
+
+      const solicitacoesEspecificas = [
+        { id: "troca_grama_campo", label: "Troca de grama / Campo de futebol", regex: /\b(grama|gramado|campo de futebol)\b/ },
+        { id: "reforma_ginasio", label: "Reforma de Ginásio / Quadra de Esportes", regex: /\b(ginasio|quadra sintetica|quadra de esportes)\b/ },
+        { id: "onibus_trabalhadores", label: "Ônibus para transporte de trabalhadores", regex: /\b(transporte de trabalhadores|onibus para transporte)\b/ },
+        { id: "tapa_buraco_pavimentacao", label: "Pavimentação / Recapeamento / Tapa-buraco / Cascalhamento", regex: /\b(pavimentacao|asfaltica|recapeamento|tapa buraco|tapa-buraco|patrolamento|cascalhamento|calcamento)\b/ },
+        { id: "limpeza_boca_lobo", label: "Limpeza / Grade em bocas de lobo / Bueiros", regex: /\b(boca de lobo|bocas de lobo|bueiro|bueiros)\b/ },
+        { id: "iluminacao_led", label: "Iluminação pública / Troca por LED", regex: /\b(iluminacao|lampadas|led|luminaria)\b/ },
+        { id: "lombada_transito", label: "Lombada / Redutor de velocidade", regex: /\b(lombada|redutor de velocidade|quebra-molas)\b/ },
+        { id: "camera_seguranca", label: "Câmeras de segurança / Policiamento", regex: /\b(camera|cameras de seguranca|camara de seguranca|policiamento)\b/ },
+        { id: "academia_ar_livre", label: "Academia ao ar livre", regex: /\bacademia\b.*?\bar livre\b/ },
+        { id: "poco_artesiano", label: "Poço artesiano / Abastecimento de água", regex: /\b(poco artesiano|abastecimento de agua)\b/ },
+        { id: "vazamento_encanamento", label: "Conserto de vazamento / Encanamento", regex: /\b(vazamento|encanamento)\b/ },
+        { id: "limpeza_entulhos", label: "Retirada de entulhos / Limpeza urbana", regex: /\b(entulhos|entulho|limpeza)\b/ },
+        { id: "creche_escola", label: "Reforma ou melhoria em Escola / Creche", regex: /\b(escola|creche|cmei)\b/ },
+        { id: "posto_saude_ubs", label: "Reforma, manutenção ou atendimento na UBS / Posto de Saúde", regex: /\b(posto de saude|ubs|posto odontologico|tecnica de enfermagem|pediatria|ginecologia|atendimento medico)\b/ }
+      ];
+
+      function registrarNoGrupo(chaveUnica, tituloExibicao, p) {
+        if (!grupos[chaveUnica]) {
+          grupos[chaveUnica] = { localOriginal: tituloExibicao, unicosMap: {} };
+        }
+        const idMateria = normalizarTexto(p.titulo).replace(/[^a-z0-9]/g, "");
+        if (!grupos[chaveUnica].unicosMap[idMateria]) {
+          grupos[chaveUnica].unicosMap[idMateria] = {
+            titulo: p.titulo,
+            ementa: p.ementa,
+            status: p.status,
+            link: p.link,
+            autores: [...p.autores]
+          };
+        }
+      }
+
+      propostas.forEach(p => {
+        if (p.catTipo === "honraria" || p.catTipo === "emenda" || p.catTipo === "mocao") return;
+
+        const nucleoLimpo = extrairNucleoPedido(p.ementa || "");
+        const textoCompleto = `${p.titulo || ""} ${p.ementa || ""}`;
+        const textoNorm = normalizarTexto(textoCompleto);
+
+        const matchVia = nucleoLimpo.match(regexViaEspecifica);
+        if (matchVia) {
+          const viaLimpa = matchVia[0].replace(/\s+/g, " ").trim();
+          if (
+            viaLimpa.length > 9 &&
+            !viaLimpa.includes("do bairro") &&
+            !viaLimpa.includes("no bairro") &&
+            !viaLimpa.includes("distrito") &&
+            !viaLimpa.includes("da ubs") &&
+            !viaLimpa.includes("do posto")
+          ) {
+            const matchOriginal = textoCompleto.match(regexViaEspecifica);
+            registrarNoGrupo(`via_${viaLimpa}`, matchOriginal ? matchOriginal[0].trim() : viaLimpa, p);
+          }
+        }
+
+        const solicitacaoEncontrada = solicitacoesEspecificas.find(s => s.regex.test(nucleoLimpo));
+        const bairroEncontrado = bairrosLista.find(b => b.regex.test(textoNorm));
+
+        if (solicitacaoEncontrada) {
+          if (bairroEncontrado) {
+            registrarNoGrupo(
+              `sol_bairro_${solicitacaoEncontrada.id}_${bairroEncontrado.nome}`,
+              `${solicitacaoEncontrada.label} — ${bairroEncontrado.nome}`,
+              p
+            );
+          } else if (solicitacaoEncontrada.id === "onibus_trabalhadores") {
+            registrarNoGrupo(
+              `sol_geral_${solicitacaoEncontrada.id}`,
+              `${solicitacaoEncontrada.label}`,
+              p
+            );
+          }
+        }
+      });
+
+      return Object.values(grupos)
+        .map(g => {
+          const itens = Object.values(g.unicosMap);
+          let infoPrefeitura = verificarAtendimentoPrefeitura("", g.localOriginal);
+          if (!infoPrefeitura.atendido) {
+            for (const it of itens) {
+              const checkItem = verificarAtendimentoPrefeitura(it.titulo, "");
+              if (checkItem.atendido) { infoPrefeitura = checkItem; break; }
+              if ((it.status || "").toLowerCase().includes("atendid") || (it.status || "").toLowerCase().includes("respondid")) {
+                infoPrefeitura = { atendido: true, texto: `Status oficial no SAPL: ${it.status}`, link: it.link };
+                break;
+              }
+            }
+          }
+          return {
+            localOriginal: g.localOriginal,
+            itens: itens,
+            atendido: infoPrefeitura.atendido,
+            infoPrefeitura: infoPrefeitura
+          };
+        })
+        .filter(g => g.itens.length >= 2)
+        .sort((a, b) => b.itens.length - a.itens.length);
+    }
+
+    const demandasRepetidas = detectarPedidosRepetidos(propostasConsolidadas);
+    let abaAtual = "propostas";
+    let filtroCategoriaPropostas = "todos";
+    let filtroEscopoPropostas = "todos";
+    let filtroStatusRepetidos = "todos";
+    let filtroEixoTematico = "todos";
+    let limiteExibicao = 5;
+
+    function mudarFiltroCategoria(novaCat) {
+      filtroCategoriaPropostas = novaCat;
+      renderizarFeed(document.getElementById("campo-busca").value, true);
+    }
+
+    function mudarFiltroEscopo(novoEscopo) {
+      filtroEscopoPropostas = novoEscopo;
+      renderizarFeed(document.getElementById("campo-busca").value, true);
+    }
+
+    function mudarFiltroRepetidos(novoStatus) {
+      filtroStatusRepetidos = novoStatus;
+      renderizarFeed(document.getElementById("campo-busca").value, true);
+    }
+
+    function mudarFiltroEixo(novoEixo) {
+      filtroEixoTematico = novoEixo;
+      renderizarFeed(document.getElementById("campo-busca").value, true);
+    }
+
+    function carregarMais() {
+      limiteExibicao += 5;
+      renderizarFeed(document.getElementById("campo-busca").value, false);
+    }
+
+    function renderizarFeed(filtro = "", resetarLimite = true) {
+      if (resetarLimite) { limiteExibicao = 5; }
+
+      const termo = filtro.toLowerCase().trim();
+      const props = propostasConsolidadas;
+      const vots = dados.votacoes || [];
+
+      document.getElementById("count-props").innerText = props.length;
+      document.getElementById("count-vots").innerText = vots.length;
+      document.getElementById("count-reps").innerText = demandasRepetidas.length;
+
+      const container = document.getElementById("feed-container");
+      const loadMoreContainer = document.getElementById("load-more-container");
+      const subFiltersWrap = document.getElementById("sub-filters-wrap");
+
+      if (abaAtual === "propostas") {
+        const baseTexto = props.filter(p =>
+          !termo ||
+          (p.ementa || "").toLowerCase().includes(termo) ||
+          (p.titulo || "").toLowerCase().includes(termo) ||
+          (p.autorTexto || "").toLowerCase().includes(termo)
+        );
+
+        const qtdInd = baseTexto.filter(p => p.escopo === "individual").length;
+        const qtdCol = baseTexto.filter(p => p.escopo === "coletivo").length;
+        const qtdIndic = baseTexto.filter(p => p.catTipo === "indicacao").length;
+        const qtdLeis = baseTexto.filter(p => p.catTipo === "lei").length;
+        const qtdReqs = baseTexto.filter(p => p.catTipo === "requerimento").length;
+        const qtdMocs = baseTexto.filter(p => p.catTipo === "mocao").length;
+        const qtdEmendas = baseTexto.filter(p => p.catTipo === "emenda").length;
+        const qtdHonrarias = baseTexto.filter(p => p.catTipo === "honraria").length;
+
+        subFiltersWrap.innerHTML = `
+          <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:16px;">
+            <div class="sub-filters">
+              <span style="font-size:0.78rem; font-weight:700; align-self:center; color:var(--muted);">Tipo:</span>
+              <button class="sub-btn ${filtroCategoriaPropostas === "todos" ? "active" : ""}" onclick="mudarFiltroCategoria('todos')">Todas (${baseTexto.length})</button>
+              <button class="sub-btn ${filtroCategoriaPropostas === "indicacao" ? "active" : ""}" onclick="mudarFiltroCategoria('indicacao')">📍 Indicações (${qtdIndic})</button>
+              <button class="sub-btn ${filtroCategoriaPropostas === "lei" ? "active" : ""}" onclick="mudarFiltroCategoria('lei')">📜 Projetos de Lei (${qtdLeis})</button>
+              <button class="sub-btn ${filtroCategoriaPropostas === "requerimento" ? "active" : ""}" onclick="mudarFiltroCategoria('requerimento')">📋 Requerimentos (${qtdReqs})</button>
+              <button class="sub-btn ${filtroCategoriaPropostas === "mocao" ? "active" : ""}" onclick="mudarFiltroCategoria('mocao')">🎖️ Moções (${qtdMocs})</button>
+              <button class="sub-btn ${filtroCategoriaPropostas === "emenda" ? "active" : ""}" onclick="mudarFiltroCategoria('emenda')">💰 Emendas (${qtdEmendas})</button>
+              <button class="sub-btn ${filtroCategoriaPropostas === "honraria" ? "active" : ""}" onclick="mudarFiltroCategoria('honraria')">🏆 Títulos e Honrarias (${qtdHonrarias})</button>
+            </div>
+            <div class="sub-filters">
+              <span style="font-size:0.78rem; font-weight:700; align-self:center; color:var(--muted);">Autoria:</span>
+              <button class="sub-btn ${filtroEscopoPropostas === "todos" ? "active" : ""}" onclick="mudarFiltroEscopo('todos')">Todos</button>
+              <button class="sub-btn ${filtroEscopoPropostas === "individual" ? "active" : ""}" onclick="mudarFiltroEscopo('individual')">👤 Individual (${qtdInd})</button>
+              <button class="sub-btn ${filtroEscopoPropostas === "coletivo" ? "active" : ""}" onclick="mudarFiltroEscopo('coletivo')">👥 Coletivo (${qtdCol})</button>
+            </div>
+          </div>
+        `;
+
+        const filtradas = baseTexto.filter(p => {
+          const bateCat = filtroCategoriaPropostas === "todos" || p.catTipo === filtroCategoriaPropostas;
+          const bateEsc = filtroEscopoPropostas === "todos" || p.escopo === filtroEscopoPropostas;
+          return bateCat && bateEsc;
+        });
+
+        const visiveis = filtradas.slice(0, limiteExibicao);
+
+        container.innerHTML = visiveis.length ? visiveis.map(p => {
+          const urlOficial = p.link || mapaUrlVereador[p.autores[0]] || "https://camaraibaiti.pr.gov.br";
+          const checkPref = verificarAtendimentoPrefeitura(p.titulo, "");
+          const bannerPref = checkPref.atendido ? `<div class="pref-box"><span>✅ <strong>${checkPref.texto}</strong></span><a href="${checkPref.link}" target="_blank" rel="noopener">Ver matéria ↗</a></div>` : "";
+          
+          const termoBusca = extrairTermoBuscaPrefeitura(p.ementa, p.titulo);
+          const urlBuscaPrefeitura = `https://www.ibaiti.pr.gov.br/busca/completa?busca=${encodeURIComponent(termoBusca)}`;
+
+          const isColetivo = p.escopo === "coletivo";
+          const badgeEscopo = isColetivo
+            ? `<span class="feed-tag coletivo">👥 Coletivo${p.autores.length > 1 ? ` (${p.autores.length} vereadores)` : ""}</span>`
+            : `<span class="feed-tag individual">👤 Individual</span>`;
+
+          const labelAutores = isColetivo ? "Autores" : "Autor(a)";
+
+          return `
+            <div class="feed-card">
+              <div class="feed-top">
+                <a href="${urlOficial}" target="_blank" rel="noopener" class="feed-title">${p.titulo}</a>
+                <div class="feed-tags-group">
+                  ${badgeEscopo}
+                  <span class="feed-tag ${checkPref.atendido ? "favor" : ""}">${checkPref.atendido ? "Atendido / Citado" : (p.status || "Tramitação")}</span>
+                </div>
+              </div>
+              <div class="feed-ementa">${p.ementa}</div>
+              ${bannerPref}
+              <div class="feed-footer">
+                <div class="feed-author">${isColetivo ? "👥" : "👤"} ${labelAutores}: ${p.autorTexto} • ${p.tipo || "Proposição"}</div>
+                <div class="feed-links-group">
+                  <a href="${urlBuscaPrefeitura}" target="_blank" rel="noopener" class="feed-link" style="color:#059669;" title="Pesquisar por: ${termoBusca}">🔍 Pesquisar na Prefeitura (${termoBusca}) ↗</a>
+                  <a href="${urlOficial}" target="_blank" rel="noopener" class="feed-link">Ver na Câmara Oficial ↗</a>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join("") : `<div class="feed-card"><p style="color:#64748b;font-size:0.9rem;">Nenhuma proposta encontrada neste filtro.</p></div>`;
+
+        if (filtradas.length > limiteExibicao) {
+          loadMoreContainer.innerHTML = `<button class="load-more-btn" onclick="carregarMais()">Mostrar mais 5 proposições (exibindo ${visiveis.length} de ${filtradas.length})</button>`;
+        } else {
+          loadMoreContainer.innerHTML = "";
+        }
+
+      } else if (abaAtual === "votacoes") {
+        subFiltersWrap.innerHTML = "";
+        const filtradas = vots.filter(vt => !termo || (vt.materia || "").toLowerCase().includes(termo) || (vt.vereador || "").toLowerCase().includes(termo));
+        const visiveis = filtradas.slice(0, limiteExibicao);
+
+        container.innerHTML = visiveis.length ? visiveis.map(vt => {
+          const isFavor = (vt.voto || "").toLowerCase().includes("favor");
+          const isContra = (vt.voto || "").toLowerCase().includes("contra");
+          const urlOficial = mapaUrlVereador[vt.vereador] || "https://camaraibaiti.pr.gov.br";
+          return `
+            <div class="feed-card">
+              <div class="feed-top">
+                <a href="${urlOficial}" target="_blank" rel="noopener" class="feed-title">${vt.materia}</a>
+                <span class="feed-tag ${isFavor ? "favor" : (isContra ? "contra" : "")}">${vt.voto}</span>
+              </div>
+              <div class="feed-footer">
+                <div class="feed-author">👤 Vereador(a): ${vt.vereador} • Resultado: ${vt.status}</div>
+                <a href="${urlOficial}" target="_blank" rel="noopener" class="feed-link">Ver registro na Câmara ↗</a>
+              </div>
+            </div>
+          `;
+        }).join("") : `<div class="feed-card"><p style="color:#64748b;font-size:0.9rem;">Nenhuma votação encontrada para "${filtro}".</p></div>`;
+
+        if (filtradas.length > limiteExibicao) {
+          loadMoreContainer.innerHTML = `<button class="load-more-btn" onclick="carregarMais()">Mostrar mais 5 votações (exibindo ${visiveis.length} de ${filtradas.length})</button>`;
+        } else {
+          loadMoreContainer.innerHTML = "";
+        }
+
+      } else {
+        let botoesEixosHtml = `<button class="sub-btn ${filtroEixoTematico === "todos" ? "active" : ""}" onclick="mudarFiltroEixo('todos')">Todos Assuntos</button>`;
+        eixosTematicos.forEach(e => {
+          const countEixo = demandasRepetidas.filter(g => {
+            const txt = `${g.localOriginal} ${g.itens.map(i => i.ementa).join(" ")}`;
+            return e.regex.test(normalizarTexto(txt));
+          }).length;
+          if (countEixo > 0) {
+            botoesEixosHtml += `<button class="sub-btn ${filtroEixoTematico === e.id ? "active" : ""}" onclick="mudarFiltroEixo('${e.id}')">${e.label} (${countEixo})</button>`;
+          }
+        });
+
+        subFiltersWrap.innerHTML = `
+          <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:16px;">
+            <div class="sub-filters">
+              <span style="font-size:0.78rem; font-weight:700; align-self:center; color:var(--muted);">Status:</span>
+              <button class="sub-btn ${filtroStatusRepetidos === "todos" ? "active" : ""}" onclick="mudarFiltroRepetidos('todos')">Todos (${demandasRepetidas.length})</button>
+              <button class="sub-btn ${filtroStatusRepetidos === "pendentes" ? "active" : ""}" onclick="mudarFiltroRepetidos('pendentes')">⏳ Pendentes (${demandasRepetidas.filter(d => !d.atendido).length})</button>
+              <button class="sub-btn ${filtroStatusRepetidos === "atendidos" ? "active" : ""}" onclick="mudarFiltroRepetidos('atendidos')">✅ Atendidos (${demandasRepetidas.filter(d => d.atendido).length})</button>
+            </div>
+            <div class="sub-filters">
+              <span style="font-size:0.78rem; font-weight:700; align-self:center; color:var(--muted);">Assuntos:</span>
+              ${botoesEixosHtml}
+            </div>
+          </div>
+        `;
+
+        const filtradas = demandasRepetidas.filter(g => {
+          const bateStatus = filtroStatusRepetidos === "todos" || (filtroStatusRepetidos === "atendidos" && g.atendido) || (filtroStatusRepetidos === "pendentes" && !g.atendido);
+          
+          let bateEixo = true;
+          if (filtroEixoTematico !== "todos") {
+            const eixoObj = eixosTematicos.find(e => e.id === filtroEixoTematico);
+            const textoGrupo = `${g.localOriginal} ${g.itens.map(i => i.ementa).join(" ")}`;
+            bateEixo = eixoObj ? eixoObj.regex.test(normalizarTexto(textoGrupo)) : true;
+          }
+
+          const bateTexto = !termo || g.localOriginal.toLowerCase().includes(termo) || g.itens.some(i => (i.ementa || "").toLowerCase().includes(termo) || i.autores.some(a => a.toLowerCase().includes(termo)));
+          return bateStatus && bateEixo && bateTexto;
+        });
+
+        const visiveis = filtradas.slice(0, limiteExibicao);
+
+        container.innerHTML = visiveis.length ? visiveis.map(g => {
+          const todosAutores = [...new Set(g.itens.flatMap(i => i.autores))].join(", ");
+          const urlBuscaPrefeitura = `https://www.ibaiti.pr.gov.br/busca/completa?busca=${encodeURIComponent(g.localOriginal)}`;
+          const bannerPref = g.atendido 
+            ? `<div class="pref-box"><span>✅ <strong>${g.infoPrefeitura.texto}</strong></span><a href="${g.infoPrefeitura.link}" target="_blank" rel="noopener">Abrir comprovação ↗</a></div>`
+            : "";
+
+          const linksHtml = g.itens.map(i => {
+            const urlOficial = i.link || mapaUrlVereador[i.autores[0]] || "https://camaraibaiti.pr.gov.br";
+            const listaCoautores = i.autores.join(", ");
+            return `<div style="margin-top:8px; font-size:0.84rem; padding-left:10px; border-left:2px solid #cbd5e1;">
+              • <a href="${urlOficial}" target="_blank" rel="noopener" style="color:var(--primary); font-weight:700; text-decoration:none;">${i.titulo}</a> <strong style="color:#334155;">(${listaCoautores})</strong>: <span style="color:#475569;">${i.ementa}</span>
+            </div>`;
+          }).join("");
+
+          return `
+            <div class="feed-card" style="border-left: 4px solid ${g.atendido ? "var(--green)" : "var(--red)"};">
+              <div class="feed-top">
+                <span class="feed-title" style="color:var(--text);">🔁 ${g.localOriginal}</span>
+                <div style="display:flex; gap:6px; align-items:center;">
+                  ${g.atendido ? '<span class="feed-tag favor">✅ Ação identificada na Prefeitura</span>' : '<span class="feed-tag contra">⏳ Pendente</span>'}
+                  <span class="feed-tag">Cobrado ${g.itens.length}x</span>
+                </div>
+              </div>
+              ${bannerPref}
+              <div class="feed-ementa" style="margin-bottom:6px;">Vereadores envolvidos: <strong>${todosAutores}</strong></div>
+              ${linksHtml}
+              <div class="feed-footer" style="margin-top:10px;">
+                <span class="feed-author">Auditoria cruzada Câmara × Prefeitura de Ibaiti</span>
+                <a href="${urlBuscaPrefeitura}" target="_blank" rel="noopener" class="feed-link" style="color:#059669;">🔍 Pesquisar "${g.localOriginal}" no site da Prefeitura ↗</a>
+              </div>
+            </div>
+          `;
+        }).join("") : `<div class="feed-card"><p style="color:#64748b;font-size:0.9rem;">Nenhuma demanda encontrada neste filtro de assunto.</p></div>`;
+
+        if (filtradas.length > limiteExibicao) {
+          loadMoreContainer.innerHTML = `<button class="load-more-btn" onclick="carregarMais()">Mostrar mais 5 demandas (exibindo ${visiveis.length} de ${filtradas.length})</button>`;
+        } else {
+          loadMoreContainer.innerHTML = "";
+        }
+      }
+    }
+
+    const inputBusca = document.getElementById("campo-busca");
+    inputBusca.addEventListener("input", e => { renderizarVereadores(e.target.value); renderizarFeed(e.target.value, true); });
+    
+    document.querySelectorAll(".chip").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+        btn.classList.add("active");
+        const termo = btn.getAttribute("data-termo");
+        inputBusca.value = termo;
+        renderizarVereadores(termo); renderizarFeed(termo, true);
+      });
+    });
+
+    document.getElementById("tab-propostas").addEventListener("click", () => {
+      abaAtual = "propostas";
+      document.getElementById("tab-propostas").classList.add("active");
+      document.getElementById("tab-votacoes").classList.remove("active");
+      document.getElementById("tab-repetidos").classList.remove("active");
+      renderizarFeed(inputBusca.value, true);
+    });
+
+    document.getElementById("tab-votacoes").addEventListener("click", () => {
+      abaAtual = "votacoes";
+      document.getElementById("tab-votacoes").classList.add("active");
+      document.getElementById("tab-propostas").classList.remove("active");
+      document.getElementById("tab-repetidos").classList.remove("active");
+      renderizarFeed(inputBusca.value, true);
+    });
+
+    document.getElementById("tab-repetidos").addEventListener("click", () => {
+      abaAtual = "repetidos";
+      document.getElementById("tab-repetidos").classList.add("active");
+      document.getElementById("tab-propostas").classList.remove("active");
+      document.getElementById("tab-votacoes").classList.remove("active");
+      renderizarFeed(inputBusca.value, true);
+    });
+
+    calcularSalarios();
+    exibirDatas();
+    renderizarEstatisticas();
+    renderizarVereadores();
+    renderizarFeed();
+  </script>
+</body>
+</html>
