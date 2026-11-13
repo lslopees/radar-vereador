@@ -371,12 +371,35 @@
 
     function calcularSalarios() {
       const inicio = new Date(dados.posse + "T00:00:00");
-      const hoje = new Date();
-      let meses = (hoje.getFullYear() - inicio.getFullYear()) * 12 + (hoje.getMonth() - inicio.getMonth()) + 1;
-      if (meses < 1) meses = 1;
-      const total = meses * 9 * (dados.sal?.v || 8541.98);
-      document.getElementById("total-salarios").innerText = total.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
-      document.getElementById("sub-salarios").innerText = `Estimativa acumulada em ${meses} meses (9 vereadores × R$ 8.541,98 brutos/mês desde jan/2025).`;
+      const salarioMensalTotal = 9 * (dados.sal?.v || 8541.98);
+      const msPorMes = 30.4375 * 24 * 60 * 60 * 1000;
+
+      function atualizarContador() {
+        const agora = new Date();
+        const diferencaMs = Math.max(0, agora - inicio);
+        const totalAcumulado = (diferencaMs / msPorMes) * salarioMensalTotal;
+
+        let meses = (agora.getFullYear() - inicio.getFullYear()) * 12 + (agora.getMonth() - inicio.getMonth()) + 1;
+        if (meses < 1) meses = 1;
+
+        const elTotal = document.getElementById("total-salarios");
+        if (elTotal) {
+          elTotal.innerText = totalAcumulado.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL",
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+          });
+        }
+
+        const elSub = document.getElementById("sub-salarios");
+        if (elSub) {
+          elSub.innerText = `Contador em tempo real desde jan/2025 (${meses} meses • 9 vereadores × R$ 8.541,98 brutos/mês).`;
+        }
+      }
+
+      atualizarContador();
+      setInterval(atualizarContador, 100);
     }
 
     function renderizarEstatisticas() {
@@ -445,6 +468,7 @@
         { nome: "Paulistinha", keys: ["paulistinha", "paulista"] },
         { nome: "Planalto", keys: ["planalto"] },
         { nome: "Santa Laura", keys: ["santa laura"] },
+        { nome: "Euzébio de Oliveira", keys: ["euzébio de oliveira", "euzebio de oliveira", "euzébio"] },
         { nome: "Patrimônio do Café", keys: ["patrimônio do café", "patrimonio do cafe", "café"] }
       ];
       bairrosLista.forEach(b => {
