@@ -88,6 +88,32 @@ VEREADORES = [
     },
 ]
 
+# Reembolsos consolidados por nome do painel
+REEMBOLSOS_MANUAIS = {
+    "Andre Sub Zero": 1159.00,
+    "Beto da Vila Guay": 250.00,
+    "Márcia": 0.00,
+    "César Tropesso": 100.11,
+    "Dudu": 0.00,
+    "Marli": 519.73,
+    "Tadeu Melancia": 100.00,
+    "Tania Constantino": 605.11,
+    "Vera do Julinho": 0.00,
+}
+
+# Diárias consolidadas (2025 + 2026 mapeadas corretamente para cada vereador do painel)
+DIARIAS_MANUAIS = {
+    "Andre Sub Zero": 4255.00,  # André Zanineti de Matos
+    "Beto da Vila Guay": 3985.00,  # José Roberto Altvater
+    "Márcia": 5160.00,  # Marcia Andreia Pereira Lemes
+    "César Tropesso": 1870.00,  # Cesar Augusto de Mello
+    "Dudu": 0.00,
+    "Marli": 6935.00,  # Marli do Carmo Silva Vigilato
+    "Tadeu Melancia": 0.00,  # Tadeu (sem diárias próprias relevantes ou já alocado)
+    "Tania Constantino": 5900.00,  # Tânia Pereira da Silva Constantino
+    "Vera do Julinho": 5070.00,  # Vera Lúcia Siqueira dos Santos
+}
+
 
 def filtrar_data_recente(texto_completo):
     txt = str(texto_completo)
@@ -258,10 +284,7 @@ def extrair_tudo_vereador(v):
                             t_lower = f"{titulo} {ementa}".lower()
                             titulo_lower = titulo.lower()
 
-                            # 1. Se o título já começa de forma explícita com Projeto de Lei
                             is_pl_oficial = "projeto de lei" in titulo_lower or "projeto de lei complementar" in titulo_lower
-                            
-                            # 2. Se for indicação, só aceita se o texto contiver explicitamente o pedido de Anteprojeto de Lei
                             is_indicacao_anteprojeto = "indicação" in titulo_lower and "anteprojeto de lei" in t_lower
 
                             if "requerimento" in t_lower and not is_pl_oficial:
@@ -311,11 +334,17 @@ def atualizar_tudo():
     for v in VEREADORES:
         print(f"Buscando dados de 2025+ para {v['nome']}...")
         props, vots, cat_real, presentes, total_v = extrair_tudo_vereador(v)
+        
+        total_reembolso = REEMBOLSOS_MANUAIS.get(v["nome"], 0.0)
+        total_diarias = DIARIAS_MANUAIS.get(v["nome"], 0.0)
+
         dados_brutos.append({
             "info": v,
             "cat": cat_real,
             "presentes": presentes,
             "total_v": total_v,
+            "reembolso": total_reembolso,
+            "diarias": total_diarias,
         })
         todas_propostas.extend(props)
         todas_votacoes.extend(vots)
@@ -363,6 +392,8 @@ def atualizar_tudo():
             "cat": d["cat"],
             "url": v["url"],
             "foto": v["foto"],
+            "reembolso": d["reembolso"],
+            "diarias": d["diarias"],
         })
 
     dados_dict = {
@@ -386,8 +417,7 @@ def atualizar_tudo():
         f.write(conteudo_js)
 
     print(
-        f"\n[Sucesso] dados.js atualizado! Última data na Câmara:"
-        f" {ultima_data_camara}"
+        f"\n[Sucesso] dados.js atualizado com mapeamento correto de nomes e diárias/reembolsos!"
     )
 
 

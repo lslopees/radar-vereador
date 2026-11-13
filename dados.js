@@ -1,6 +1,6 @@
 window.RX = {
   "posse": "2025-01-01",
-  "ger": "2026-11-13T12:06:03.323504",
+  "ger": "2026-11-13T15:24:30.764532",
   "ultima_proposta_data": "21/04/2026",
   "sal": {
     "v": 8541.98,
@@ -23,7 +23,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/464",
-      "foto": "464.jpg"
+      "foto": "464.jpg",
+      "reembolso": 1159.0,
+      "diarias": 4255.0
     },
     {
       "id": "461",
@@ -40,7 +42,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/461",
-      "foto": "461.jpg"
+      "foto": "461.jpg",
+      "reembolso": 250.0,
+      "diarias": 3985.0
     },
     {
       "id": "534",
@@ -57,7 +61,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/534",
-      "foto": "534.jpg"
+      "foto": "534.jpg",
+      "reembolso": 0.0,
+      "diarias": 5160.0
     },
     {
       "id": "458",
@@ -74,7 +80,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/458",
-      "foto": "458.jpg"
+      "foto": "458.jpg",
+      "reembolso": 100.11,
+      "diarias": 1870.0
     },
     {
       "id": "533",
@@ -91,7 +99,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/533",
-      "foto": "533.jpg"
+      "foto": "533.jpg",
+      "reembolso": 0.0,
+      "diarias": 0.0
     },
     {
       "id": "535",
@@ -108,7 +118,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/535",
-      "foto": "535.jpg"
+      "foto": "535.jpg",
+      "reembolso": 519.73,
+      "diarias": 6935.0
     },
     {
       "id": "462",
@@ -125,7 +137,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/462",
-      "foto": "462.jpg"
+      "foto": "462.jpg",
+      "reembolso": 100.0,
+      "diarias": 0.0
     },
     {
       "id": "536",
@@ -142,7 +156,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/536",
-      "foto": "536.jpg"
+      "foto": "536.jpg",
+      "reembolso": 605.11,
+      "diarias": 5900.0
     },
     {
       "id": "456",
@@ -159,7 +175,9 @@ window.RX = {
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/456",
-      "foto": "456.jpg"
+      "foto": "456.jpg",
+      "reembolso": 0.0,
+      "diarias": 5070.0
     }
   ],
   "propostas": [

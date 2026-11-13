@@ -493,6 +493,8 @@
               <div class="v-meta">
                 <div><span style="color:#64748b">Salário bruto mensal:</span><strong>R$ 8.541,98</strong></div>
                 <div><span style="color:#64748b">Presença nas sessões:</span><strong>${v.P || 90}%</strong></div>
+                <div><span style="color:#64748b">Reembolsos:</span><strong style="color: #dc2626;">${(v.reembolso || 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</strong></div>
+                <div><span style="color:#64748b">Diárias:</span><strong style="color: #dc2626;">${(v.diarias || 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</strong></div>
               </div>
               <div class="v-stats">
                 <div>
