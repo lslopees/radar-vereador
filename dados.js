@@ -1,6 +1,6 @@
 window.RX = {
   "posse": "2025-01-01",
-  "ger": "2026-11-13T11:20:12.515139",
+  "ger": "2026-11-13T12:06:03.323504",
   "ultima_proposta_data": "21/04/2026",
   "sal": {
     "v": 8541.98,
@@ -16,10 +16,10 @@ window.RX = {
       "votos": 1200,
       "P": 99,
       "cat": {
-        "b": 80,
+        "b": 91,
         "c": 0,
         "h": 7,
-        "l": 24,
+        "l": 13,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/464",
@@ -33,10 +33,10 @@ window.RX = {
       "votos": 1150,
       "P": 98,
       "cat": {
-        "b": 62,
+        "b": 72,
         "c": 0,
         "h": 7,
-        "l": 20,
+        "l": 10,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/461",
@@ -50,10 +50,10 @@ window.RX = {
       "votos": 1100,
       "P": 97,
       "cat": {
-        "b": 41,
+        "b": 53,
         "c": 0,
         "h": 7,
-        "l": 22,
+        "l": 10,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/534",
@@ -67,10 +67,10 @@ window.RX = {
       "votos": 1050,
       "P": 95,
       "cat": {
-        "b": 113,
+        "b": 126,
         "c": 0,
         "h": 7,
-        "l": 24,
+        "l": 11,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/458",
@@ -84,10 +84,10 @@ window.RX = {
       "votos": 1000,
       "P": 95,
       "cat": {
-        "b": 61,
+        "b": 72,
         "c": 3,
         "h": 7,
-        "l": 25,
+        "l": 14,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/533",
@@ -101,10 +101,10 @@ window.RX = {
       "votos": 950,
       "P": 99,
       "cat": {
-        "b": 63,
+        "b": 75,
         "c": 0,
-        "h": 7,
-        "l": 24,
+        "h": 8,
+        "l": 11,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/535",
@@ -113,15 +113,15 @@ window.RX = {
     {
       "id": "462",
       "nome": "Tadeu Melancia",
-      "civil": "Vereador",
+      "civil": "Vereadora",
       "partid": "SOLIDARIEDADE",
       "votos": 920,
       "P": 100,
       "cat": {
-        "b": 63,
+        "b": 73,
         "c": 1,
         "h": 8,
-        "l": 20,
+        "l": 10,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/462",
@@ -135,10 +135,10 @@ window.RX = {
       "votos": 900,
       "P": 99,
       "cat": {
-        "b": 65,
+        "b": 77,
         "c": 0,
         "h": 7,
-        "l": 23,
+        "l": 11,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/536",
@@ -152,10 +152,10 @@ window.RX = {
       "votos": 880,
       "P": 95,
       "cat": {
-        "b": 104,
+        "b": 116,
         "c": 0,
         "h": 7,
-        "l": 21,
+        "l": 9,
         "o": 0
       },
       "url": "https://camaraibaiti.pr.gov.br/vereador/view/456",
@@ -168,7 +168,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -176,7 +176,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -184,7 +184,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 198 de 18 de maio de 2026",
       "ementa": "aquisição de 02 (dois) pneus novos destinados ao trator utilizado na comunidade da Vila Guay, neste município.",
-      "status": "Indicação 198Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12914/indicacao-n-198-de-18-de-maio-de-2026"
     },
     {
@@ -192,7 +192,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -200,7 +200,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 193, de 11 de maio de 2026",
       "ementa": "os procedimentos necessários visando à limpeza das margens da estrada na região da entrada do Posto São Jorge até as proximidades da Água da Limeira, garantindo melhores condições de visibilidade, segurança no tráfego e conservação da via pública.",
-      "status": "Indicação 193Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12893/indicacao-n-193-de-11-de-maio-de-2026"
     },
     {
@@ -208,7 +208,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 192, de 11 de maio de 2026",
       "ementa": "manutenção e melhorias na Rua Francelina Joana Jesus, no bairro Vila Esperança, garantindo melhores condições de trafegabilidade, segurança aos moradores e adequada infraestrutura viária.",
-      "status": "Indicação 192Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12892/indicacao-n-192-de-11-de-maio-de-2026"
     },
     {
@@ -216,7 +216,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 172, de 21/04/2026",
       "ementa": "conserto e manutenção do pavimento em pedras irregulares na Rua Dr. Francisco Oliveira, com a devida recuperação do leito da via, visando melhorar as condições de trafegabilidade e segurança para pedestres e motoristas.",
-      "status": "Indicação 172Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12790/indicacao-n-172-de-21042026"
     },
     {
@@ -224,7 +224,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 164, de 30/03/2026",
       "ementa": "realizada a roçada e limpeza na estrada da Mãe Rainha, sentido Banestado.",
-      "status": "INDICAÇÃO Nº 164Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12679/indicacao-n-164-de-30032026"
     },
     {
@@ -232,7 +232,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 163, de 30/03/2026",
       "ementa": "realizada a roçada, limpeza e retirada de entulhos na localidade da Mina Velha.",
-      "status": "INDICAÇÃO Nº 163Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12678/indicacao-n-163-de-30032026"
     },
     {
@@ -240,7 +240,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 162, de 30/03/2026",
       "ementa": "realizada a roçada e limpeza da quadra de skate do município.",
-      "status": "INDICAÇÃO Nº 162Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12677/indicacao-n-162-de-30032026"
     },
     {
@@ -248,7 +248,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 161, de 30/03/2026",
       "ementa": "realizada a limpeza, roçada e retirada de entulhos no Bairro São Cristóvão.",
-      "status": "NDICAÇÃO Nº 161Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12676/indicacao-n-161-de-30032026"
     },
     {
@@ -256,7 +256,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 68 DE 05/02/2026",
       "ementa": "execução de pavimentação asfáltica na Rua Maria Pereira Belão, nº 260, neste Município.",
-      "status": "Indicação 68Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12224/indicacao-68-de-05022026"
     },
     {
@@ -264,7 +264,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 69 DE 05/02/2026",
       "ementa": "recuperação e manutenção do asfalto da Rua Ana Nery.",
-      "status": "Indicação 69Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12225/indicacao-69-de-05022026"
     },
     {
@@ -272,7 +272,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 44 DE 29/01/2026",
       "ementa": "fornecimento de kit lanche para os pacientes que realizam tratamento pelo município.",
-      "status": "Indicação 44Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12199/indicacao-44-de-29012026"
     },
     {
@@ -280,7 +280,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 46 DE 29/01/2026",
       "ementa": "autorizado o repasse do incentivo financeiro federal aos Agentes Comunitários de Saúde e aos Agentes de Combate às Endemias, conforme previsto na legislação federal vigente.",
-      "status": "Indicação 46Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12201/indicacao-46-de-29012026"
     },
     {
@@ -288,7 +288,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
@@ -296,7 +296,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 43 DE 29/01/2026",
       "ementa": "parquinho infantil no Pico, próximo à venda do Senhor Guilherme.",
-      "status": "Indicação 43Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12198/indicacao-43-de-29012026"
     },
     {
@@ -304,7 +304,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 42 DE 29/01/2026",
       "ementa": "instalação de um parquinho infantil e de uma academia ao ar livre na Vila Santo Antônio.",
-      "status": "Indicação 42Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12197/indicacao-42-de-29012026"
     },
     {
@@ -312,7 +312,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 40 DE 29/01/2026",
       "ementa": "instalação de câmeras de segurança nas entradas da cidade e na região central.",
-      "status": "Indicação 40Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12195/indicacao-40-de-29012026"
     },
     {
@@ -320,7 +320,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 39 DE 29/01/2026",
       "ementa": "revitalização das calçadas da Rua Alice Pereira Goulart, no Bairro DER.",
-      "status": "Indicação 39Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12194/indicacao-39-de-29012026"
     },
     {
@@ -328,7 +328,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 37 DE 29/01/2026",
       "ementa": "revitalização da Rua Padre Estevão.",
-      "status": "Indicação 37Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12192/indicacao-37-de-29012026"
     },
     {
@@ -336,7 +336,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 36 DE 29/01/2026",
       "ementa": "revitalização da Rua Rui Barbosa, principalmente no trecho em frente ao cemitério.",
-      "status": "Indicação 36Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12191/indicacao-36-de-29012026"
     },
     {
@@ -344,7 +344,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 35 DE 29/01/2026",
       "ementa": "iluminação do Estádio Jorge Banuth.",
-      "status": "Indicação 35Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12190/indicacao-35-de-29012026"
     },
     {
@@ -352,7 +352,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 34 DE 29/01/2026",
       "ementa": "aquisição de uniformes para as crianças das escolas da rede municipal de ensino.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12189/indicacao-34-de-29012026"
     },
     {
@@ -360,7 +360,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 33 DE 29/01/2026",
       "ementa": "Quadra do Petezão, com solução das infiltrações, tendo em vista que chove dentro do local, bem como a reforma dos banheiros.",
-      "status": "Indicação 33Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12188/indicacao-33-de-29012026"
     },
     {
@@ -368,7 +368,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 32 DE 29/01/2026",
       "ementa": "revitalização da Quadra Fabrício Leal.",
-      "status": "Indicação 32Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12187/indicacao-32-de-29012026"
     },
     {
@@ -376,7 +376,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 31 DE 29/01/2026",
       "ementa": "revitalização da Quadra Poliesportiva Jaime José de Matos, localizada na Rua João Edmundo de Carvalho.",
-      "status": "Indicação 31Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12186/indicacao-31-de-29012026"
     },
     {
@@ -384,15 +384,15 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
@@ -400,12 +400,12 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -416,7 +416,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 344, de 11/12/2025",
       "ementa": "lixeiras na rua Antônio de Moura Bueno",
-      "status": "Indicação 344Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11412/indicacao-de-n-344-de-11122025"
     },
     {
@@ -424,15 +424,15 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 345, de 11/12/2025",
       "ementa": "tapa buraco na Rua Mandina",
-      "status": "Indicação 345Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11413/indicacao-de-n-345-de-11122025"
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Andre Zanineti de Matos para 2026",
       "ementa": "Emendas Impositivas do vereador André Zanineti de Matos",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12144/andre-zanineti-de-matos-para-2026"
     },
     {
@@ -440,7 +440,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
@@ -448,7 +448,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 303-2025",
       "ementa": "lombada na Rua Margarida Franklin Gonçalves nas proximidade do Campo de Futebol.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11115/indicacao-n-303-2025"
     },
     {
@@ -456,7 +456,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 285-2025",
       "ementa": "Lombada e faixa de pedestre ruas Alcebíades Rodrigues de Melo e na Rua Alfredo Costa, na Cohapar.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10952/indicacao-n-285-2025"
     },
     {
@@ -464,7 +464,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 279-2025",
       "ementa": "recape asfáltico de todas as Ruas do Bairro Cohapar.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10920/indicacao-n-279-2025"
     },
     {
@@ -472,7 +472,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 271-2025",
       "ementa": "o recape asfáltico de todas as Ruas do Bairro João Edmundo de Carvalho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10885/indicacao-n-271-2025"
     },
     {
@@ -480,7 +480,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 267-2025",
       "ementa": "operação tapa buraco na Rua Theófilo Marques da Silveira, descendo do lado do mercado Subtil",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10881/indicacao-n-267-2025"
     },
     {
@@ -488,7 +488,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -496,7 +496,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 253-2025",
       "ementa": "O Vereador que esta subscreve, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, para que seja arrumado o alambrando da quadra de esporte do Bairro João Edmundo de Carvalho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10794/indicacao-n-253-2025"
     },
     {
@@ -504,7 +504,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 252-2025",
       "ementa": "O Vereador que esta subscreve, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, que seja realizada a contratação de mais um profissional farmacêutico para atendimento na farmácia do Posto de Saúde Central, especificamente para o período noturno.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10793/indicacao-n-252-2025"
     },
     {
@@ -512,7 +512,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -520,7 +520,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 248-2025",
       "ementa": "O Vereador que está subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para seja colocado traves na quadra de esporte do Bairro Edmundo de Carvalho ao lado do CRAS",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10654/indicacao-n-248-2025"
     },
     {
@@ -528,7 +528,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 247-2025",
       "ementa": "O Vereador que está subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para a troca da iluminação da rua Teófilo Marques da Silveira por lâmpadas de LED",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10638/indicacao-n-247-2025"
     },
     {
@@ -536,7 +536,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 237-2025",
       "ementa": "Os Vereadores que esta subscrevem, requerem que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feito um centro recreativo e esportivo na praça Júlio Faráh.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10603/indicacao-n-237-2025"
     },
     {
@@ -544,7 +544,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 232-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que se feito tapa buraco na Rua Abraão Fará.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10562/indicacao-n-232-2025"
     },
     {
@@ -552,7 +552,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 234-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que se feita a pavimentação asfáltica na Rua Fernandes Carvalho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10564/indicacao-n-234-2025"
     },
     {
@@ -560,7 +560,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 233-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que se feita a pavimentação asfáltica na Rua José de Pedro Quadros, próximo ao nº 41 na Vila Sossego.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10563/indicacao-n-233-2025"
     },
     {
@@ -773,7 +773,7 @@ window.RX = {
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Indicação nº 55/2025",
       "ementa": "PROJETO DE LEI QUE DISCIPLINE A ASSISTÊNCIA RELIGIOSA HOSPITALAR",
       "status": "Aprovado",
@@ -861,7 +861,7 @@ window.RX = {
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -869,7 +869,7 @@ window.RX = {
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -877,23 +877,23 @@ window.RX = {
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -901,7 +901,7 @@ window.RX = {
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -909,7 +909,7 @@ window.RX = {
     },
     {
       "autor": "Andre Sub Zero",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -936,7 +936,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -944,7 +944,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -952,7 +952,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -984,7 +984,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -992,7 +992,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -1000,7 +1000,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -1008,7 +1008,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -1016,7 +1016,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -1024,7 +1024,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 006/2025",
       "ementa": "CRIA A PREMIAÇÃO \"ATLETA DESTAQUE\" PARA ATLETAS DE CATEGORIAS DE BASE DO MUNICÍPIO DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4246/projeto-de-lei-n-0062025-4"
     },
     {
@@ -1032,7 +1032,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 004/2025",
       "ementa": "Dispõe sobre a publicidade e divulgação prévia mensal no site do Município de Ibaiti do cronograma de todas as ações e serviços executados com os maquinários, equipamentos, veículos e implementos da municipalidade.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4204/projeto-de-lei-n-0042025-3"
     },
     {
@@ -1040,7 +1040,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -1048,7 +1048,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     },
     {
@@ -1056,7 +1056,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -1064,7 +1064,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 207 de 25 de maio de 2026",
       "ementa": "patrolamento e cascalhamento na estrada de acesso ao Sítio Recanto Feliz, localizado na região do Banco da Terra, bairro Vassoural, neste município, visando garantir melhores condições de tráfego e segurança aos moradores e produtores rurais da localidade.",
-      "status": "Indicação 207Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12960/indicacao-n-207-de-25-de-maio-de-2026"
     },
     {
@@ -1072,7 +1072,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -1080,7 +1080,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -1088,7 +1088,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 191, de 11 de maio de 2026",
       "ementa": "instalação de refletores nos cemitérios das localidades de Vassoural e Vila Guay, com o objetivo de melhorar a iluminação, garantir maior segurança aos visitantes e servidores, além de proporcionar melhores condições de visibilidade no período noturno.",
-      "status": "Indicação 191Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12891/indicacao-n-191-de-11-de-maio-de-2026"
     },
     {
@@ -1096,7 +1096,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 190, de 11 de maio de 2026",
       "ementa": "patrolamento e cascalhamento da Rua Jovino Carlos Pinto e da Rua Roque Balei, próximo à Avenida Tertuliano, nas imediações da FEATI, garantindo melhores condições de trafegabilidade, segurança aos moradores e usuários das vias e a devida manutenção da infraestrutura urbana local.",
-      "status": "Indicação 190Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12890/indicacao-n-190-de-11-de-maio-de-2026"
     },
     {
@@ -1104,7 +1104,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 183, de 04 de maio de 2026",
       "ementa": "instalação da rede de abastecimento de água no Bairro Industrial do Município de Ibaiti, tendo como referência a região da fábrica de pão do senhor Carlinhos, localizada ao lado da fábrica SPodonto Healt, visando atender moradores e trabalhadores locais que enfrentam dificuldades quanto ao acesso regular à água potável.",
-      "status": "Indicação 183Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12821/indicacao-n-183-de-04-de-maio-de-2026"
     },
     {
@@ -1112,7 +1112,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 182, de 04 de maio de 2026",
       "ementa": "patrolamento e cascalhamento da estrada do Cazú, seguindo sentido à Vila Rural São Roque do Pico, visando melhorar as condições de trafegabilidade, garantindo segurança aos moradores, produtores rurais e demais usuários da via.",
-      "status": "Indicação 182Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12820/indicacao-n-182-de-04-de-maio-de-2026"
     },
     {
@@ -1120,7 +1120,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 169, de 09/04/2026",
       "ementa": "conserto da ponte localizada próxima ao Sítio do Senhor Elias Carneiro, no Rio do Engano, aos fundos da Fazenda São José.",
-      "status": "Indicação 169Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12760/indicacao-n-169-de-09042026"
     },
     {
@@ -1128,7 +1128,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 136, de 12/03/2026",
       "ementa": "realização de aquisição de tambores de lixo para o bairro da Vila Guay.",
-      "status": "Indicação 136Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12504/indicacao-n-136-de-12032026"
     },
     {
@@ -1136,7 +1136,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 138 de 12/03/2026",
       "ementa": "iluminação no campo da Vila Guay.",
-      "status": "Indicação 138Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12506/indicacao-n-138-de-12032026"
     },
     {
@@ -1144,7 +1144,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 139 de 12/03/2026",
       "ementa": "reforma da calha da UBS da Vila Guay.",
-      "status": "Indicação 139Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12507/indicacao-n-139-de-12032026"
     },
     {
@@ -1152,7 +1152,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 137, de 12/03/2026",
       "ementa": "reforma na capela mortuária da Vila Guay.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12505/indicacao-n-137-de-12032026"
     },
     {
@@ -1160,7 +1160,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 50 DE 05/02/2026",
       "ementa": "patrolamento e cascalhamento da estrada mestre Sanepar e estrada do Matão.",
-      "status": "Indicação 50Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12205/indicacao-50-de-05022026"
     },
     {
@@ -1168,7 +1168,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 49 de 05/02/2026",
       "ementa": "patrolamento e cascalhamento da estrada mestre da Vila Guay, sentido bairro dos Carneiros.",
-      "status": "Indicação 49Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12204/indicacao-n-49-de-05022026"
     },
     {
@@ -1176,7 +1176,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 48 de 05/02/2026",
       "ementa": "patrolamento e cascalhamento estrada da Vila Guay sentido Shigueto e estrada mestre leiteria do Edinho",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12203/indicacao-n-48-de-05022026"
     },
     {
@@ -1184,7 +1184,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 52 DE 05/02/2026",
       "ementa": "serviço de tapa-buraco na Rua José de Moura Bueno, especificamente em frente à Tabacaria do Ditinho.",
-      "status": "Indicação 52Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12207/indicacao-52-de-05022026"
     },
     {
@@ -1192,7 +1192,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 51 DE 05/02/2026",
       "ementa": "patrolamento e cascalhamento da estrada Pico Agudo Cazú, sentido granja do Wilson.",
-      "status": "Indicação 51Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12206/indicacao-51-de-05022026"
     },
     {
@@ -1200,7 +1200,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
@@ -1208,7 +1208,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
@@ -1216,20 +1216,20 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -1240,15 +1240,15 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "José Roberto Altvater para 2026",
       "ementa": "Emendas Impositivas do vereador José Roberto Altvater para 2026",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12147/jose-roberto-altvater-para-2026"
     },
     {
@@ -1256,7 +1256,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 284-2025",
       "ementa": "instalado um parquinho infantil na praça da Vila Guay.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10923/indicacao-n-284-2025"
     },
     {
@@ -1264,7 +1264,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -1272,7 +1272,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 264-2025",
       "ementa": "ponte de concreto, na estrada do Shigueto",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10820/indicacao-n-264-2025"
     },
     {
@@ -1280,7 +1280,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 265-2025",
       "ementa": "ponte de concreto, na estrada os Carneiros, rio do Engano",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10821/indicacao-n-265-2025"
     },
     {
@@ -1288,7 +1288,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 266-2025",
       "ementa": "ponte de concreto, na estrada os Carneiros, rio da volta Zé do Juca",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10822/indicacao-n-266-2025"
     },
     {
@@ -1296,7 +1296,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 263-2025",
       "ementa": "ponte de concreto, na estrada do Novo Jardim",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10819/indicacao-n-263-2025"
     },
     {
@@ -1304,7 +1304,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 259-2025",
       "ementa": "O Vereador que esta subscreve, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, para que seja realizado o recape asfáltico na Rua Gabriel Altvater e na Rua General Rondon, no Distrito da Vila Guay.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10800/indicacao-n-259-2025"
     },
     {
@@ -1312,7 +1312,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 260-2025",
       "ementa": "O Vereador que esta subscreve, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, para que seja colocado caixa de lixo nas margens da rodovia PR 436, estrada de acesso ao Senhor Lázaro e Dona Ivone.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10801/indicacao-n-260-2025"
     },
     {
@@ -1320,7 +1320,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -1328,7 +1328,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 246-2025",
       "ementa": "O Vereador que está subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feita a manutenção e conserto da academia do ar livre no Distrito do Vassoural.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10637/indicacao-n-246-2025"
     },
     {
@@ -1336,7 +1336,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 245-2025",
       "ementa": "O Vereador que está subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feita o patrolamento e cascalhamento Rua Tertuliano no Bairro Flamenguinho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10636/indicacao-n-245-2025"
     },
     {
@@ -1344,7 +1344,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 239-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja colocado iluminação de LED em todas as Ruas do Bairro Vila Guay.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10605/indicacao-n-239-2025"
     },
     {
@@ -1352,7 +1352,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 237-2025",
       "ementa": "Os Vereadores que esta subscrevem, requerem que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feito um centro recreativo e esportivo na praça Júlio Faráh.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10603/indicacao-n-237-2025"
     },
     {
@@ -1360,7 +1360,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 236-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que se feita a pavimentação asfáltica do Programa Asfalto Novo Vida Nova, na Vila Nova no Bairro Vila Guay.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10566/indicacao-n-236-2025"
     },
     {
@@ -1368,7 +1368,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 235-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que se feita a pavimentação asfáltica do Programa Asfalto Novo Vida Nova, na Rua Ibaiti sentindo até o cemitério, Bairro Vila Guay",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10565/indicacao-n-235-2025"
     },
     {
@@ -1597,7 +1597,7 @@ window.RX = {
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -1605,7 +1605,7 @@ window.RX = {
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -1613,23 +1613,23 @@ window.RX = {
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -1637,7 +1637,7 @@ window.RX = {
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -1645,7 +1645,7 @@ window.RX = {
     },
     {
       "autor": "Beto da Vila Guay",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -1672,7 +1672,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -1680,7 +1680,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -1688,7 +1688,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -1712,7 +1712,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -1720,7 +1720,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -1728,7 +1728,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -1736,7 +1736,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -1744,7 +1744,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -1752,7 +1752,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -1760,7 +1760,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     },
     {
@@ -1768,7 +1768,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -1776,7 +1776,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -1784,7 +1784,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -1792,7 +1792,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 184, de 04 de maio de 2026",
       "ementa": "o recuo na entrada da Fazenda Santa Laura, do lado direito da via, considerando que o local não possui espaço adequado para manobra e acesso seguro.",
-      "status": "Indicação 184Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12823/indicacao-n-184-de-04-de-maio-de-2026"
     },
     {
@@ -1800,7 +1800,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 160, de 26 de março de 2026",
       "ementa": "realizada atividade itinerante do CRAS, com atendimento periódico nos distritos do município, visando ampliar o acesso da população aos serviços socioassistenciais.",
-      "status": "INDICAÇÃO Nº 160Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12675/indicacao-n-160-de-26-de-marco-de-2026"
     },
     {
@@ -1808,7 +1808,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 130, de 05/03/2026",
       "ementa": "poço artesiano no Bairro São Arthur Bernardes, no Município de Ibaiti.",
-      "status": "Indicação 130Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12457/indicacao-n-130-de-05032026"
     },
     {
@@ -1816,7 +1816,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 124 de 25/02/2026",
       "ementa": "implantação  de  cronograma de limpeza pública e recolhimento de entulhos no município de Ibaiti.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12399/indicacao-de-n-124-de-25022026"
     },
     {
@@ -1824,7 +1824,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 103 de 19/02/2026",
       "ementa": "realizada a revitalização da pista de saúde do Município.",
-      "status": "Indicação 103Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12289/indicacao-de-n-103-de-19022026"
     },
     {
@@ -1832,7 +1832,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 105 de 19/02/2026",
       "ementa": "instalação de academia ao ar livre no Bairro São Roque do Pico.",
-      "status": "Indicação 105Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12291/indicacao-de-n-105-de-19022026"
     },
     {
@@ -1840,7 +1840,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 104 de 19/02/2026",
       "ementa": "instalação de academia ao ar livre na pista de saúde do Município.",
-      "status": "Indicação 104Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12290/indicacao-de-n-104-de-19022026"
     },
     {
@@ -1848,7 +1848,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 101 de 19/02/2026",
       "ementa": "operação tapa-buracos em todas as ruas do Bairro Oscar Arieta Negrão.",
-      "status": "Indicação 101Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12287/indicacao-de-n-101-de-19022026"
     },
     {
@@ -1856,7 +1856,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 100 de 19/02/2026",
       "ementa": "estudo técnico e providências necessárias para a implantação de um CAPS – Centro de Atenção Psicossocial – no Município.",
-      "status": "Indicação 100Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12286/indicacao-de-n-100-de-19022026"
     },
     {
@@ -1864,7 +1864,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 63 DE 05/02/2026",
       "ementa": "manutenção da ponte localizada na descida da Mina Velha, bem como a colocação de proteção (guarda-corpo) em ambos os lados da referida ponte.",
-      "status": "Indicação 63Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12219/indicacao-63-de-05022026"
     },
     {
@@ -1872,15 +1872,15 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
@@ -1888,7 +1888,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
@@ -1896,12 +1896,12 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -1912,15 +1912,15 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Márcia Andreia Pereira Lemes para 2026",
       "ementa": "Emendas Impositivas da vereadora Márcia Andreia Pereira Lemes  para 2026",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12148/marcia-andreia-pereira-lemes-para-2026"
     },
     {
@@ -1928,7 +1928,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -1936,7 +1936,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 261-2025",
       "ementa": "contratação de mais um fisioterapeuta para atendimento na UBS da Vila Guay.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10817/indicacao-n-261-2025"
     },
     {
@@ -1944,7 +1944,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 262-2025",
       "ementa": "contratação de mais um fisioterapeuta para atendimento no UBS Central",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10818/indicacao-n-262-2025"
     },
     {
@@ -1952,7 +1952,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 250-2025",
       "ementa": "Instalação de uma horta comunitária junto com a cozinha comunitária, no centro de distribuição",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10753/indicacao-n-250-2025"
     },
     {
@@ -1960,7 +1960,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -1968,7 +1968,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 244-2025",
       "ementa": "As Vereadoras que esta subscrevem, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação que através da Secretaria Municipal competente, una-se ao movimento estadual para realizar em nosso Município a Caminhada do Meio-Dia – 2025, que acontecerá em data de 22 de julho, data marcada como o Dia Estadual de Combate ao Feminicídio.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10635/indicacao-n-244-2025"
     },
     {
@@ -1976,7 +1976,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 237-2025",
       "ementa": "Os Vereadores que esta subscrevem, requerem que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feito um centro recreativo e esportivo na praça Júlio Faráh.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10603/indicacao-n-237-2025"
     },
     {
@@ -2125,7 +2125,7 @@ window.RX = {
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Indicação nº 87/2025",
       "ementa": "PROJETO DE LEI QUE ALTERE A NOMENCLATURA E ATRIBUIÇÕES DA SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL, PARA INCLUIR PARTICIPAÇÃO DOS DIREITOS DAS MULHERES",
       "status": "Aprovado",
@@ -2149,7 +2149,7 @@ window.RX = {
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -2157,7 +2157,7 @@ window.RX = {
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -2165,23 +2165,23 @@ window.RX = {
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -2189,7 +2189,7 @@ window.RX = {
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -2197,7 +2197,7 @@ window.RX = {
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -2224,7 +2224,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -2232,7 +2232,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -2240,7 +2240,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -2261,7 +2261,7 @@ window.RX = {
     },
     {
       "autor": "Márcia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO nº 003/2025",
       "ementa": "Cria Galeria Lilás",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2025Integra",
@@ -2272,7 +2272,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -2280,7 +2280,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -2288,7 +2288,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -2296,7 +2296,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -2304,7 +2304,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -2312,7 +2312,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -2320,7 +2320,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     },
     {
@@ -2328,7 +2328,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -2336,7 +2336,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -2344,7 +2344,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 197, de 18 de maio de 2026",
       "ementa": "faça os últimos 30 metros de calçamento de pedra irregular da Rua Vital Ribeiro de Almeida, bairro São Cristóvão.",
-      "status": "Indicação 197Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12913/indicacao-n-197-de-18-de-maio-de-2026"
     },
     {
@@ -2352,7 +2352,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -2360,7 +2360,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 187, de 11 de maio de 2026",
       "ementa": "os procedimentos necessários visando à instalação de um container de lixo nas proximidades da Cadeia Pública de Ibaiti, com o objetivo de garantir o adequado acondicionamento dos resíduos, a melhoria das condições de higiene e limpeza do local e a preservação da saúde pública.",
-      "status": "Indicação 187Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12887/indicacao-n-187-de-11-de-maio-de-2026"
     },
     {
@@ -2368,7 +2368,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 188, de 11 de maio de 2026",
       "ementa": "patrolamento e cascalhamento das estradas rurais do Bairro Thomaz, garantindo melhores condições de tráfego, segurança aos moradores e escoamento adequado da produção agrícola local.",
-      "status": "Indicação 188Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12888/indicacao-n-188-de-11-de-maio-de-2026"
     },
     {
@@ -2376,7 +2376,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 189, de 11 de maio de 2026",
       "ementa": "realização operação tapa buraco nas últimas quadras da rua Olavo Ribeiro da Silva, descendo a OAB.",
-      "status": "Indicação 189Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12889/indicacao-n-189-de-11-de-maio-de-2026"
     },
     {
@@ -2384,7 +2384,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 186, de 04 de maio de 2026",
       "ementa": "a manutenção e substituição da tampa da boca de lobo (bueiro) localizada na esquina da Rua Teófilo Cecílio com a Rua Campos Sales, tendo em vista o risco de acidentes e danos a veículos e pedestres que transitam pelo local.",
-      "status": "Indicação 186Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12827/indicacao-n-186-de-04-de-maio-de-2026"
     },
     {
@@ -2392,7 +2392,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 185, de 04 de maio de 2026",
       "ementa": "o conserto da calçada e manutenção da via pública na Rua Maria Rosa Heidgger, em sua última quadra, no trecho compreendido entre o estabelecimento Panga Motos e a Rua Paraná, visando garantir melhores condições de circulação e segurança aos pedestres e motoristas que utilizam o local.",
-      "status": "Indicação 185Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12825/indicacao-n-185-de-04-de-maio-de-2026"
     },
     {
@@ -2400,7 +2400,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 174, de 21/04/2026",
       "ementa": "operação tapa-buracos na Rua Otarico Bueno, nº 95, Bairro Gralha Azul, bem como na via de acesso ao Posto do Gralha Azul, neste Município.",
-      "status": "Indicação 174Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12792/indicacao-n-174-de-21042026"
     },
     {
@@ -2408,7 +2408,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 173 de, 21/04/2026",
       "ementa": "a realização de serviços de limpeza geral e roçada na Rua João Alfredo Costa, neste Município.",
-      "status": "Indicação 173Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12791/indicacao-n-173-de-21042026"
     },
     {
@@ -2416,7 +2416,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 176, de 21/04/2026",
       "ementa": "operação tapa-buracos na Rua Rui Barbosa, nº 78, nas proximidades da Clínica Valleodonto, neste Município.",
-      "status": "Indicação 176Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12794/indicacao-n-176-de-21042026"
     },
     {
@@ -2424,7 +2424,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 175, de 21/04/2026",
       "ementa": "operação tapa-buracos na Travessa Pedro da Silva Reis, neste Município.",
-      "status": "Indicação 175Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12793/indicacao-n-175-de-21042026"
     },
     {
@@ -2432,7 +2432,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 158, de 26/03/2026",
       "ementa": "INDICAÇÃO, para que determine ao setor competente Indicação a solda nas duas traves da quadra de esportes do DER.",
-      "status": "INDICAÇÃO Nº 158Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12673/indicacao-n-158-de-26032026"
     },
     {
@@ -2440,7 +2440,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 159, de 26/03/2026",
       "ementa": "reforma do antigo Posto de Saúde e a disponibilização de atendimento odontológico, com a colocação de um dentista no Distrito do Euzébio de Oliveira.",
-      "status": "INDICAÇÃO Nº 159Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12674/indicacao-n-159-de-26032026"
     },
     {
@@ -2448,7 +2448,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 165, de 30/03/2026",
       "ementa": "implantação de lombada na Avenida Governador Paulo Cruz Pimentel, em frente à Academia Gracie Barra.",
-      "status": "INDICAÇÃO Nº 165Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12706/indicacao-de-n-165-de-30032026"
     },
     {
@@ -2456,7 +2456,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 166, de 30/03/2026",
       "ementa": "reforma da ponte localizada na Fazenda Fundão, próxima à propriedade do Senhor Cesar.",
-      "status": "INDICAÇÃO Nº 166Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12707/indicacao-de-n-166-de-30032026"
     },
     {
@@ -2464,7 +2464,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 147, de 18/03/2026",
       "ementa": "roçada e limpeza dos terrenos institucionais localizados em frente ao Colégio Seiji Hatanda.",
-      "status": "Indicação 147Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12618/indicacao-n-147-de-18032026"
     },
     {
@@ -2472,7 +2472,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 144, de 18/03/2026",
       "ementa": "implantação de lombadas em todas as quadras da Avenida Alice Pereira Goulart, no D.E.R.",
-      "status": "Indicação 144Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12615/indicacao-n-144-de-18032026"
     },
     {
@@ -2480,7 +2480,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 145, de 18/03/2026",
       "ementa": "roçada e limpeza na rotatória da Rua Margarida Franklin Gonçalves, sentido São José/Edmundo de Carvalho",
-      "status": "Indicação 145Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12616/indicacao-n-145-de-18032026"
     },
     {
@@ -2488,7 +2488,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 146, de 18/03/2026",
       "ementa": "recuperação da malha asfáltica na Rua Pedro José de Quadros, próximo ao Colégio Cívico-Militar Júlio Farah",
-      "status": "Indicação 146Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12617/indicacao-n-146-de-18032026"
     },
     {
@@ -2496,7 +2496,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 148, de 20/03/2026",
       "ementa": "pavimentação asfáltica nas Ruas Santo Antônio e José Francisco de Abreu.",
-      "status": "Indicação 148Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12619/indicacao-n-148-de-20032026"
     },
     {
@@ -2504,7 +2504,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 140 de 12/03/2026",
       "ementa": "instalação de placa de preferência na rotatória da Avenida do DER, nas proximidades do DETRAN, no Município de Ibaiti.",
-      "status": "Indicação 140Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12508/indicacao-n-140-de-12032026"
     },
     {
@@ -2512,7 +2512,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 141 de 12/03/2026",
       "ementa": "realização de reforma da malha asfáltica em parte da Rua Euzébio Rodrigues de Melo, no bairro Gralha Azul, no Município de Ibaiti.",
-      "status": "Indicação 141Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12509/indicacao-n-141-de-12032026"
     },
     {
@@ -2520,7 +2520,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 142 de 12/03/2026",
       "ementa": "container para coleta de lixo na saída do Sítio Boa Sorte, aproximadamente 1 km após o britador, na zona rural do Município de Ibaiti.",
-      "status": "Indicação 142Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12510/indicacao-n-142-de-12032026"
     },
     {
@@ -2528,7 +2528,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 135, de 06/03/2026",
       "ementa": "reforma da ponte localizada no Bairro Anchieta, sentido Represa da Barragem, no Município de Ibaiti.",
-      "status": "Indicação 135Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12462/indicacao-n-135-de-06032026"
     },
     {
@@ -2536,7 +2536,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 131, de 26/02/2026",
       "ementa": "roçada e limpeza no Bairro Jardim Pérola, no Município de Ibaiti.",
-      "status": "Indicação 131Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12458/indicacao-n-131-de-26022026"
     },
     {
@@ -2544,7 +2544,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 132, de 04/03/2026",
       "ementa": "instalação de iluminação pública e traves de futebol na quadra localizada próxima ao Centro de Atendimento da Mulher, no Bairro Jardim Atlanta.",
-      "status": "Indicação 132Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12459/indicacao-n-132-de-04032026"
     },
     {
@@ -2552,7 +2552,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 134, de 04/03/2026",
       "ementa": "cascalhamento e roçada no final da Rua João Gomes, nas proximidades da chácara do Senhor Celsão.",
-      "status": "Indicação 134Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12461/indicacao-n-134-de-04032026"
     },
     {
@@ -2560,7 +2560,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 133, de 04/03/2026",
       "ementa": "instalação de iluminação pública e traves de futebol na quadra localizada atrás da UBS do Bairro Jardim Paineiras.",
-      "status": "Indicação 133Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12460/indicacao-n-133-de-04032026"
     },
     {
@@ -2568,7 +2568,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 118, de 25/02/2026",
       "ementa": "realização de roçada e limpeza no Bairro Jardim Pérola.",
-      "status": "Indicação 118Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12393/indicacao-de-n-118-de-25022026"
     },
     {
@@ -2576,7 +2576,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 117, de 25/02/2026",
       "ementa": "realização lombada em frente ao bar do seu Vicente, na rua Principal.",
-      "status": "Indicação 117Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12392/indicacao-de-n-117-de-25022026"
     },
     {
@@ -2592,7 +2592,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 111 de 19/02/2026",
       "ementa": "conserto da tampa do bueiro localizado na Rua Jaime Nogueira, próximo ao nº 23, na descida para a propriedade do senhor Tião Alves.",
-      "status": "Indicação 111Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12297/indicacao-n-111-de-19022026"
     },
     {
@@ -2600,7 +2600,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 08 DE 29/01/2026",
       "ementa": "desbaste de galhos e roçada na estrada principal de acesso ao Distrito de Euzébio de Oliveira.",
-      "status": "Indicação 08Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12163/indicacao-08-de-29012026"
     },
     {
@@ -2608,7 +2608,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 03 DE 29/01/2026",
       "ementa": "patrolamento e cascalhamento das estradas rurais da Amorinha, Fazenda Boqueirão, Alto Alegre, São Roque do Bugio, Amora Preta e Carvãozinho.",
-      "status": "Indicação 03Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12158/indicacao-n-03-de-29012026"
     },
     {
@@ -2616,7 +2616,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 04 DE 29/01/2026",
       "ementa": "patrolamento e cascalhamento das estradas rurais da Fazendinha",
-      "status": "Indicação 04Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12159/indicacao-04-de-29012026"
     },
     {
@@ -2624,7 +2624,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 13 DE 29/01/2026",
       "ementa": "roçada na academia ao ar livre do Distrito da Amorinha.",
-      "status": "Indicação 13Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12168/indicacao-13-de-29012026"
     },
     {
@@ -2632,7 +2632,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 17 DE 29/01/2026",
       "ementa": "patrolamento e o cascalhamento de todas as ruas do Bairro Jardim Califórnia, visando melhores condições de tráfego e segurança aos moradores.",
-      "status": "Indicação 17Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12172/indicacao-17-de-29012026"
     },
     {
@@ -2640,7 +2640,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 01 de 29/01/2026",
       "ementa": "instalação de lombada em frente ao nº 21 da Rua Sebastião Goulart de Oliveira.",
-      "status": "Indicação 01Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12156/indicacao-n-01-de-29012026"
     },
     {
@@ -2648,7 +2648,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
@@ -2656,7 +2656,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 30 DE 29/01/2026",
       "ementa": "reforma do parquinho ao lado da praça Júlio Farah.",
-      "status": "Indicação 30Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12185/indicacao-30-de-29012026"
     },
     {
@@ -2664,23 +2664,23 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 15 DE 29/01/2026",
       "ementa": "implantação do Projeto “Meu Campinho” e academia da terceira idade no Distrito de Euzébio de Oliveira.",
-      "status": "Indicação 15Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12170/indicacao-15-de-29012026"
     },
     {
@@ -2688,7 +2688,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 11 DE 29/01/2026",
       "ementa": "reforma do parquinho ao lado do Ginásio de Esportes Petezão.",
-      "status": "Indicação 11Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12166/indicacao-11-de-29012026"
     },
     {
@@ -2696,7 +2696,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 07 DE 29/01/2026",
       "ementa": "roçada nas margens da Rodovia Municipal José Santiago, acesso ao Distrito da Amorinha.",
-      "status": "Indicação 07Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12162/indicacao-07-de-29012026"
     },
     {
@@ -2704,7 +2704,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 02 de 29/01/2026",
       "ementa": "patrolamento e cascalhamento na Rua Cícero Lopes.",
-      "status": "Indicação 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12157/indicacao-n-02-de-29012026"
     },
     {
@@ -2712,7 +2712,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
@@ -2720,7 +2720,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 05 DE 29/01/2026",
       "ementa": "patrolamento e cascalhamento das estradas rurais do P.A. Vale Verde, Santa Laura, Euzébio de Oliveira, Ponte de Ferro e Laranjal.",
-      "status": "Indicação 05Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12160/indicacao-05-de-29012026"
     },
     {
@@ -2728,7 +2728,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 14 DE 29/01/2026",
       "ementa": "implantação de um parque infantil no Distrito de Euzébio de Oliveira.",
-      "status": "Indicação 14Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12169/indicacao-14-de-29012026"
     },
     {
@@ -2736,7 +2736,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 10 DE 29/01/2026",
       "ementa": "recolocação da iluminação na pista de caminhada da parte alta da cidade.",
-      "status": "Indicação 10Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12165/indicacao-10-de-29012026"
     },
     {
@@ -2752,7 +2752,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 18 DE 29/01/2026",
       "ementa": "colocação de traves e redes na quadra esportiva localizada na parte alta do Conjunto Habitacional João Edmundo de Carvalho, com o objetivo de incentivar a prática esportiva e o lazer da comunidade.",
-      "status": "Indicação 18Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12173/indicacao-18-de-29012026"
     },
     {
@@ -2760,7 +2760,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 09 DE 29/01/2026",
       "ementa": "operação tapa-buracos na parte alta da cidade, bairro São Judas Tadeu (Caixa d’Água).",
-      "status": "Indicação 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12164/indicacao-09-de-29012026"
     },
     {
@@ -2768,7 +2768,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 16 DE 29/01/2026",
       "ementa": "reforma do campo de futebol do Distrito da Amorinha.",
-      "status": "Indicação 16Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12171/indicacao-16-de-29012026"
     },
     {
@@ -2776,12 +2776,12 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 12 DE 29/11/2026",
       "ementa": "pintura das faixas de pedestres na Avenida Arnaldo Fraivo Busato.",
-      "status": "Indicação 12Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12167/indicacao-12-de-29112026"
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -2792,15 +2792,15 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "César Augusto de Mello para 2026",
       "ementa": "Emendas Impositivas do vereador César Augusto de Mello para 2026",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12146/cesar-augusto-de-mello-para-2026"
     },
     {
@@ -2808,15 +2808,15 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 299-2025",
       "ementa": "troca e regulagem da iluminação na pista de skate.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11061/indicacao-n-299-2025"
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 293-2025",
       "ementa": "criação de projeto de Lei de incentivo ao esporte",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11042/indicacao-n-293-2025"
     },
     {
@@ -2824,7 +2824,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 295-2025",
       "ementa": "construção de vestiários,  melhorias na iluminação no campo de futebol do Distrito da Amorinha",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11044/indicacao-n-295-2025"
     },
     {
@@ -2832,7 +2832,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 291-2025",
       "ementa": "ponto de carga e descarga na Rua Vereador Jose de Moura Bueno",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11040/indicacao-n-291-2025"
     },
     {
@@ -2840,7 +2840,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 294-2025",
       "ementa": "implantação de um campo de futebol sintético e um parquinho infantil no Distrito do Euzébio de Oliveira",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11043/indicacao-n-294-2025"
     },
     {
@@ -2848,7 +2848,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 286-2025",
       "ementa": "lombada na Rua Madri próximo ao nº 296, no Bairro São Cristóvão",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10953/indicacao-n-286-2025"
     },
     {
@@ -2856,7 +2856,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 279-2025",
       "ementa": "recape asfáltico de todas as Ruas do Bairro Cohapar.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10920/indicacao-n-279-2025"
     },
     {
@@ -2864,7 +2864,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 269-2025",
       "ementa": "compra dos equipamentos de  vídeo endoscopia flexível (sistema de vídeo-endoscopia digestiva, ou colonoscopia ou duodenoscopia ou gastroscopia ou broncoscopia, sistema de vídeo endoscópio ou ureteroscópio flexível) para o Sistema Municipal de Saúde",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10883/indicacao-n-269-2025"
     },
     {
@@ -2872,7 +2872,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 273-2025",
       "ementa": "patrolamento e cascalhamento das estradas da Santa Laura, Lambari, Laranjal e Ponte de Ferro",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10888/indicacao-n-273-2025"
     },
     {
@@ -2880,7 +2880,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 271-2025",
       "ementa": "o recape asfáltico de todas as Ruas do Bairro João Edmundo de Carvalho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10885/indicacao-n-271-2025"
     },
     {
@@ -2888,7 +2888,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -2896,7 +2896,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 272-2025",
       "ementa": "para que seja disponibilizada um linha de transporte para os moradores que moram no distrito de Euzébio de Oliveira.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10886/indicacao-n-272-2025"
     },
     {
@@ -2904,7 +2904,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -2912,7 +2912,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 242-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feita a implantação de uma guarita/ponto de ônibus próximo a Escola Zacarias no Distrito de Eusébio de Oliveira",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10618/indicacao-n-242-2025"
     },
     {
@@ -2920,7 +2920,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 243-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feita lombadas nas Ruas principais do Distrito de Eusébio de Oliveira, principalmente na rua da Escola e paralelas.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10619/indicacao-n-243-2025"
     },
     {
@@ -2928,7 +2928,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 237-2025",
       "ementa": "Os Vereadores que esta subscrevem, requerem que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feito um centro recreativo e esportivo na praça Júlio Faráh.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10603/indicacao-n-237-2025"
     },
     {
@@ -2936,7 +2936,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 240-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja retirado uma guia em excesso na Av. Fernandina do Amaral Gentile próximo ao nº 460.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10606/indicacao-n-240-2025"
     },
     {
@@ -2944,7 +2944,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 230-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento para que seja estudada a possibilidade de se destinar um espaço na praça Júlio Farah para a prática do basquete 3x3, com a colocação de marcações e uma tabela de basquete.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10560/indicacao-n-230-2025"
     },
     {
@@ -3253,7 +3253,7 @@ window.RX = {
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Indicação nº 12/2025",
       "ementa": "PROJETO DE LEI PARCELA EXTRA ANUAL PREVISTA ACS E ACE",
       "status": "Aprovado",
@@ -3301,7 +3301,7 @@ window.RX = {
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -3309,7 +3309,7 @@ window.RX = {
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -3317,23 +3317,23 @@ window.RX = {
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -3341,7 +3341,7 @@ window.RX = {
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -3349,7 +3349,7 @@ window.RX = {
     },
     {
       "autor": "César Tropesso",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -3376,7 +3376,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -3384,7 +3384,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -3392,7 +3392,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -3416,7 +3416,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -3424,7 +3424,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -3432,7 +3432,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -3440,7 +3440,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -3448,7 +3448,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -3456,7 +3456,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 006/2025",
       "ementa": "CRIA A PREMIAÇÃO \"ATLETA DESTAQUE\" PARA ATLETAS DE CATEGORIAS DE BASE DO MUNICÍPIO DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4246/projeto-de-lei-n-0062025-4"
     },
     {
@@ -3464,7 +3464,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -3472,7 +3472,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     },
     {
@@ -3480,7 +3480,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -3488,7 +3488,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 203 de 25 de maio de 2026",
       "ementa": "patrolamento e cascalhamento da estrada rural do Bairro Fundão das Três Pontes, neste município, visando melhorar as condições de tráfego, proporcionar maior segurança aos usuários e facilitar o escoamento da produção agrícola da região.",
-      "status": "Indicação 203Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12956/indicacao-n-203-de-25-de-maio-de-2026"
     },
     {
@@ -3496,7 +3496,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 202 de 25 de maio de 2026",
       "ementa": "patrolamento e cascalhamento da estrada rural do Asilo, neste município, visando garantir melhores condições de tráfego, segurança e acessibilidade aos moradores, produtores rurais e demais usuários da via.",
-      "status": "Indicação 202Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12955/indicacao-n-202-de-25-de-maio-de-2026"
     },
     {
@@ -3504,7 +3504,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -3512,7 +3512,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 195, de 18 de maio de 2026",
       "ementa": "a troca de lâmpada do viaduto do Gralha Azul, rua José de Moura Bueno.",
-      "status": "Indicação 195Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12911/indicacao-n-195-de-18-de-maio-de-2026"
     },
     {
@@ -3520,7 +3520,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -3528,15 +3528,15 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 181, de 30 de abril de 2026",
       "ementa": "realize fiscalização nas obras de saneamento básico executadas por empresa terceirizada contratada pela SANEPAR, tendo em vista os transtornos causados à população. Os problemas foram constatados especialmente na região final da Rua Dra. Fernandina do Amaral Gentile, Rua Anair Maria de Mello, Rua Madri e Demais Ruas e nas imediações da Chácara do Luiz da TIM, onde moradores relatam dificuldades de acesso e risco de acidentes.",
-      "status": "Indicação 181Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12818/indicacao-n-181-de-30-de-abril-de-2026"
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 178, de 21/04/2026",
       "ementa": "desenvolvimento de projeto de modernização do sistema de estacionamento rotativo pago, Zona Azul, a fim de que a cobrança seja efetivada por meio de sistema eletrônico informatizado e paquímetros multivagas.",
-      "status": "Indicação 178Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12796/indicacao-n-178-de-21042026"
     },
     {
@@ -3544,7 +3544,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 177, de 21/04/2026",
       "ementa": "realizados reparos na fiação elétrica e manutenção da iluminação pública na pista da parte alta, tendo em vista que diversos pontos encontram-se com a iluminação apagada, neste Município.",
-      "status": "Indicação 177Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12795/indicacao-n-177-de-21042026"
     },
     {
@@ -3552,7 +3552,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 169, de 09/04/2026",
       "ementa": "conserto da ponte localizada próxima ao Sítio do Senhor Elias Carneiro, no Rio do Engano, aos fundos da Fazenda São José.",
-      "status": "Indicação 169Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12760/indicacao-n-169-de-09042026"
     },
     {
@@ -3560,7 +3560,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 180, de 30 de abril de 2026",
       "ementa": "o patrolamento e cascalhamento da estrada principal do Bairro Alto Alegre, descendo no sentido aos Sítios do Sr. Ozório e do Sr. Dirceu, tendo em vista que a referida via encontra-se em condições precárias de trafegabilidade, tornando-se praticamente intransitável, causando transtornos aos moradores, produtores rurais e demais usuários da estrada.",
-      "status": "Indicação 180Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12814/indicacao-n-180-de-30-de-abril-de-2026"
     },
     {
@@ -3568,7 +3568,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 143 de 12/03/2026",
       "ementa": "pintura da faixa de pedestres na rotatória localizada em frente ao Mercado Subtil.",
-      "status": "Indicação 143Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12512/indicacao-n-143-de-12032026"
     },
     {
@@ -3576,7 +3576,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 125, de 05/03/2026",
       "ementa": "realização de reparos no asfalto e o conserto da tampa da rede pluvial na Rua Antônio de Oliveira Lima, esquina com a Rua Emílio de Moraes, próximo ao Mãe Rainha.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12452/indicacao-n-125-de-05032026"
     },
     {
@@ -3584,7 +3584,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 129, de 05/03/2026",
       "ementa": "conclusão de encanamento de agua potável do Parque Industrial.",
-      "status": "Indicação 129Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12456/indicacao-n-129-de-05032026"
     },
     {
@@ -3592,7 +3592,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 128, de 05/03/2026",
       "ementa": "notificação da empresa responsável pela pavimentação do Distrito do Patrimônio do Café, considerando que a obra se encontra dentro do prazo de garantia de 5 (cinco) anos, a fim de que sejam realizados os devidos reparos nos trechos que apresentam problemas.",
-      "status": "Indicação 128Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12455/indicacao-n-128-de-05032026"
     },
     {
@@ -3600,7 +3600,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 126, de 05/03/2026",
       "ementa": "realização de limpeza da área institucional do Loteamento Serra Dourada.",
-      "status": "Indicação 126Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12453/indicacao-n-126-de-05032026"
     },
     {
@@ -3608,7 +3608,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 127, de 05/03/2026",
       "ementa": "realização de limpeza das ruas, da pista de caminhada e das áreas institucionais do Loteamento Araucária I e II, próximo ao Bairro Dr. Ibaiti.",
-      "status": "Indicação 127Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12454/indicacao-n-127-de-05032026"
     },
     {
@@ -3616,7 +3616,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 115, de 25/02/2026",
       "ementa": "realização de reparos no asfalto da Rua Francelina Joana de Jesus, nas proximidades da COHAPAR",
-      "status": "Indicação 115Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12390/indicacao-de-n-115-de-25022026"
     },
     {
@@ -3624,7 +3624,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 116, de 25/02/2026",
       "ementa": "realização de limpeza e manutenção do canteiro central do Loteamento Jardim Carolina e das ruas adjacentes.",
-      "status": "Indicação 116Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12391/indicacao-de-n-116-de-25022026"
     },
     {
@@ -3632,7 +3632,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 112, de 25/02/2026",
       "ementa": "desobstrução da rede de água pluvial na esquina da Rua Paraná com a Rua Antônio de Moura Bueno, Centro, no Município de Ibaiti.",
-      "status": "Indicação 112Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12387/indicacao-de-n-112-de-25022026"
     },
     {
@@ -3640,7 +3640,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 114, de 25/02/2026",
       "ementa": "limpeza e roçada no Centro de Eventos Aécio Flávio de Oliveira, localizado no Jardim Pérola.",
-      "status": "Indicação 114Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12389/indicacao-de-n-114-de-25022026"
     },
     {
@@ -3648,7 +3648,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 113, de 25/02/2026",
       "ementa": "desobstrução da rede de água pluvial na esquina da Rua Ananias Costa com a Rua Antônio de Moura Bueno, em frente ao material de construção do Leonildo, Centro, no Município de Ibaiti.",
-      "status": "Indicação 113Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12388/indicacao-de-n-113-de-25022026"
     },
     {
@@ -3664,7 +3664,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 30 DE 29/01/2026",
       "ementa": "reforma do parquinho ao lado da praça Júlio Farah.",
-      "status": "Indicação 30Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12185/indicacao-30-de-29012026"
     },
     {
@@ -3672,7 +3672,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
@@ -3680,7 +3680,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
@@ -3688,20 +3688,20 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -3712,15 +3712,15 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Carlos Eduardo Pereira para 2026",
       "ementa": "Emendas Impositivas do vereador Carlos Eduardo Pereira para 2026",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12145/carlos-eduardo-pereira-para-2026"
     },
     {
@@ -3728,7 +3728,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 296-2025",
       "ementa": "ampliação do acostamento nas margens da PR-272",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11058/indicacao-n-296-2025"
     },
     {
@@ -3736,7 +3736,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 289-2025",
       "ementa": "conserto dos semáforos da cidade",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11012/indicacao-n-289-2025"
     },
     {
@@ -3744,7 +3744,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 279-2025",
       "ementa": "recape asfáltico de todas as Ruas do Bairro Cohapar.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10920/indicacao-n-279-2025"
     },
     {
@@ -3752,7 +3752,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 270-2025",
       "ementa": "para que seja feito a aquisição de um ônibus para transporte de passageiros.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10884/indicacao-n-270-2025"
     },
     {
@@ -3760,7 +3760,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -3768,7 +3768,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 271-2025",
       "ementa": "o recape asfáltico de todas as Ruas do Bairro João Edmundo de Carvalho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10885/indicacao-n-271-2025"
     },
     {
@@ -3776,7 +3776,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 254-2025",
       "ementa": "INDICAÇÃO DE Nº 254, de 04/08/2025 de autoria do Vereador Carlos Eduardo Pereira",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10795/indicacao-n-254-2025"
     },
     {
@@ -3784,7 +3784,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 255-2025",
       "ementa": "O Vereador que esta subscreve, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, para que seja colocado uma academia ao ar livre na pista da saúde no alto da cidade",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10796/indicacao-n-255-2025"
     },
     {
@@ -3792,7 +3792,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 250-2025",
       "ementa": "Instalação de uma horta comunitária junto com a cozinha comunitária, no centro de distribuição",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10753/indicacao-n-250-2025"
     },
     {
@@ -3800,7 +3800,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 251-2025",
       "ementa": "contratação de mais um profissional de pilates destinadas ao grupo da Melhor Idade, e a aquisição de novos equipamentos.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10754/indicacao-n-251-2025"
     },
     {
@@ -3808,7 +3808,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -3816,7 +3816,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 237-2025",
       "ementa": "Os Vereadores que esta subscrevem, requerem que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feito um centro recreativo e esportivo na praça Júlio Faráh.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10603/indicacao-n-237-2025"
     },
     {
@@ -3837,7 +3837,7 @@ window.RX = {
     },
     {
       "autor": "Dudu",
-      "tipo": "Indicação / Proposição",
+      "tipo": "Projeto de Lei",
       "titulo": "INDICAÇÃO  Nº 206-2025",
       "ementa": "O Vereador que esta subscreve, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito indicação para que junto do setor competente encaminhe a esta Casa Legislativa Anteprojeto de Lei que estabeleça normas de funcionamento dos cemitérios municipais, dentre as quais o dever de  que o responsável pela construção e reforma de túmulos contrate caçamba para a destinação dos entulhos, e que seja construída pelo",
       "status": "Aprovado",
@@ -3981,7 +3981,7 @@ window.RX = {
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Indicação nº 48/2025",
       "ementa": "DESENVOLVIMENTO DO PROJETO DE IMPLANTAÇÃO DE CÂMERAS DE SEGURANÇA EM LOCAIS ESTRATÉGICOS",
       "status": "Aprovado",
@@ -4053,7 +4053,7 @@ window.RX = {
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -4061,7 +4061,7 @@ window.RX = {
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -4069,23 +4069,23 @@ window.RX = {
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -4093,7 +4093,7 @@ window.RX = {
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -4101,7 +4101,7 @@ window.RX = {
     },
     {
       "autor": "Dudu",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -4128,7 +4128,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 005, DE 02 DE MARÇO DE 2026.",
       "ementa": "Institui o Programa Municipal \"Adote um Logradouro Público\".",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4928/projeto-de-lei-n-005-de-02-de-marco-de-2026"
     },
     {
@@ -4136,7 +4136,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -4144,7 +4144,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -4152,7 +4152,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -4168,7 +4168,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 015 - 2025",
       "ementa": "Dispõe sobre a obrigatoriedade de todas as concessionárias prestadoras de serviços públicos, empresas de Telecomunicações, Água ou qualquer outra entidade que utiliza a rede subterrânea da malha viária para implantação, manutenção, reparo ou qualquer outra atividade, que realizem o fechamento do pavimento (tapa buraco) para cada danificação feita por ela própria no âmbito do Município de Ibaiti, Estado do Paraná.",
-      "status": "ArquivadoArquivado",
+      "status": "Arquivado",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/6386/projeto-de-lei-n-015-2025"
     },
     {
@@ -4184,7 +4184,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -4192,7 +4192,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -4200,7 +4200,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -4208,7 +4208,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -4216,7 +4216,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -4224,7 +4224,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 004/2025",
       "ementa": "Dispõe sobre a publicidade e divulgação prévia mensal no site do Município de Ibaiti do cronograma de todas as ações e serviços executados com os maquinários, equipamentos, veículos e implementos da municipalidade.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4204/projeto-de-lei-n-0042025-3"
     },
     {
@@ -4232,7 +4232,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -4240,7 +4240,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     },
     {
@@ -4248,7 +4248,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -4256,7 +4256,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 206 de 25 de maio de 2026",
       "ementa": "instalação de uma lombada na Rua Vilson Alves, em frente ao posto de saúde, neste município, visando reduzir a velocidade dos veículos e proporcionar maior segurança aos pedestres e usuários da unidade de saúde.",
-      "status": "Indicação 206Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12959/indicacao-n-206-de-25-de-maio-de-2026"
     },
     {
@@ -4264,7 +4264,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 205 de 25 de maio de 2026",
       "ementa": "instalação de uma caixa de lixo na entrada do Bairro Campinhos, neste município, visando proporcionar melhores condições de limpeza urbana e descarte adequado de resíduos pela população local.",
-      "status": "Indicação 205Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12958/indicacao-n-205-de-25-de-maio-de-2026"
     },
     {
@@ -4272,7 +4272,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -4280,7 +4280,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 204 de 25 de maio de 2026",
       "ementa": "instalação de uma lombada em frente à Escola Zacarias, localizada no bairro Euzébio de Oliveira, neste município, visando proporcionar maior segurança aos alunos, pais, servidores e demais pedestres que transitam pelo local.",
-      "status": "Indicação 204Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12957/indicacao-n-204-de-25-de-maio-de-2026"
     },
     {
@@ -4288,7 +4288,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -4296,7 +4296,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 167, de 09/04/2026",
       "ementa": "implantação de poço artesiano no Assentamento Planalto",
-      "status": "Indicação 167Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12758/indicacao-n-167-de-09042026"
     },
     {
@@ -4304,7 +4304,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 168, de 09/04/2026",
       "ementa": "médico especializado nas áreas de Pediatria e Ginecologia, pelo período mínimo de 15 (quinze) dias por mês, no Posto de Saúde do Bairro Campinho,",
-      "status": "Indicação 168Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12759/indicacao-n-168-de-09042026"
     },
     {
@@ -4312,7 +4312,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 160, de 26 de março de 2026",
       "ementa": "realizada atividade itinerante do CRAS, com atendimento periódico nos distritos do município, visando ampliar o acesso da população aos serviços socioassistenciais.",
-      "status": "INDICAÇÃO Nº 160Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12675/indicacao-n-160-de-26-de-marco-de-2026"
     },
     {
@@ -4320,7 +4320,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 124 de 25/02/2026",
       "ementa": "implantação  de  cronograma de limpeza pública e recolhimento de entulhos no município de Ibaiti.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12399/indicacao-de-n-124-de-25022026"
     },
     {
@@ -4328,7 +4328,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 121, de 27/02/2026",
       "ementa": "realização de pavimentação asfáltica nas ruas do Bairro Campinhos.",
-      "status": "Indicação 121Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12396/indicacao-de-n-121-de-27022026"
     },
     {
@@ -4336,7 +4336,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 120, de 27/02/2026",
       "ementa": "realização de reforma no Ginásio de Esportes do Bairro Campinhos.",
-      "status": "Indicação 120Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12395/indicacao-de-n-120-de-27022026"
     },
     {
@@ -4344,7 +4344,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 119, de 27/02/2026",
       "ementa": "realização da troca da grama do campo de futebol do Bairro Campinhos.",
-      "status": "Indicação 119Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12394/indicacao-de-n-119-de-27022026"
     },
     {
@@ -4352,7 +4352,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 101 de 19/02/2026",
       "ementa": "operação tapa-buracos em todas as ruas do Bairro Oscar Arieta Negrão.",
-      "status": "Indicação 101Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12287/indicacao-de-n-101-de-19022026"
     },
     {
@@ -4360,7 +4360,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 100 de 19/02/2026",
       "ementa": "estudo técnico e providências necessárias para a implantação de um CAPS – Centro de Atenção Psicossocial – no Município.",
-      "status": "Indicação 100Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12286/indicacao-de-n-100-de-19022026"
     },
     {
@@ -4368,7 +4368,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 67 DE 05/02/2026",
       "ementa": "disponibilização de um ônibus destinado ao transporte de trabalhadores, com saída no período da manhã e retorno no período da tarde.",
-      "status": "Indicação 67Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12223/indicacao-67-de-05022026"
     },
     {
@@ -4376,7 +4376,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 66 DE 05/02/2026",
       "ementa": "instalação de duas caixas/coletoras para depósito de lixo na Fazenda Planalto.",
-      "status": "Indicação 66Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12222/indicacao-66-de-05022026"
     },
     {
@@ -4384,7 +4384,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 65 DE 05/02/2026",
       "ementa": "patrolamento da estrada do Areião.",
-      "status": "Indicação 65Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12221/indicacao-65-de-05022026"
     },
     {
@@ -4392,7 +4392,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 64 DE 05/02/2026",
       "ementa": "substituição das lâmpadas convencionais por lâmpadas de LED na iluminação pública do Distrito do campinhos.",
-      "status": "Indicação 64Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12220/indicacao-64-de-05022026"
     },
     {
@@ -4400,7 +4400,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
@@ -4408,7 +4408,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 47 DE 29/01/2026",
       "ementa": "realizada a limpeza de todas as bocas de lobo no Distrito do Campinhos.",
-      "status": "Indicação 47Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12202/indicacao-47-de-29012026"
     },
     {
@@ -4416,7 +4416,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
@@ -4424,20 +4424,20 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -4448,23 +4448,23 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Marli do Carmo Silva Vigilato para 2026",
       "ementa": "Emendas Impositivas da vereadora Marli do Carmo Silva Vigilato para 2026",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12149/marli-do-carmo-silva-vigilato-para-2026"
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Moção / Homenagem",
       "titulo": "INDICAÇÃO Nº 290-2025",
       "ementa": "Projeto de Lei que visa instituir o programa frente de trabalho e promoção social",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11039/indicacao-n-290-2025"
     },
     {
@@ -4472,7 +4472,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 280-2025",
       "ementa": "lombada na Rua Vilson Alves em frente ao Posto de Saúde",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10921/indicacao-n-280-2025"
     },
     {
@@ -4480,7 +4480,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 281-2025",
       "ementa": "reforma do posto de saúde no Planalto.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10922/indicacao-n-281-2025"
     },
     {
@@ -4488,7 +4488,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -4496,7 +4496,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 261-2025",
       "ementa": "contratação de mais um fisioterapeuta para atendimento na UBS da Vila Guay.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10817/indicacao-n-261-2025"
     },
     {
@@ -4504,7 +4504,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 262-2025",
       "ementa": "contratação de mais um fisioterapeuta para atendimento no UBS Central",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10818/indicacao-n-262-2025"
     },
     {
@@ -4512,7 +4512,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 250-2025",
       "ementa": "Instalação de uma horta comunitária junto com a cozinha comunitária, no centro de distribuição",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10753/indicacao-n-250-2025"
     },
     {
@@ -4520,7 +4520,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -4528,7 +4528,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 249-2025",
       "ementa": "A Vereadora que esta subscreve, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a realização do arruamento e especificação de zoneamento para o desenvolvimento de atividades industriais na área adquirida mediante desapropriação no Distrito do Campinho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10655/indicacao-n-249-2025"
     },
     {
@@ -4536,7 +4536,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 244-2025",
       "ementa": "As Vereadoras que esta subscrevem, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação que através da Secretaria Municipal competente, una-se ao movimento estadual para realizar em nosso Município a Caminhada do Meio-Dia – 2025, que acontecerá em data de 22 de julho, data marcada como o Dia Estadual de Combate ao Feminicídio.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10635/indicacao-n-244-2025"
     },
     {
@@ -4544,7 +4544,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 229-2025",
       "ementa": "A Vereadora que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento para que se coloque placa de identificação e sinalização de ônibus escolar em frente à Escola João Severino Sales no Distrito do Campinho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10559/indicacao-n-229-2025"
     },
     {
@@ -4552,7 +4552,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 228-2025",
       "ementa": "A Vereadora que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento para que seja feito a reforma do Projeto Marcos Justino no Distrito do Campinho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10558/indicacao-n-228-2025"
     },
     {
@@ -4773,7 +4773,7 @@ window.RX = {
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Indicação nº 87/2025",
       "ementa": "PROJETO DE LEI QUE ALTERE A NOMENCLATURA E ATRIBUIÇÕES DA SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL, PARA INCLUIR PARTICIPAÇÃO DOS DIREITOS DAS MULHERES",
       "status": "Aprovado",
@@ -4813,7 +4813,7 @@ window.RX = {
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -4821,7 +4821,7 @@ window.RX = {
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -4829,23 +4829,23 @@ window.RX = {
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -4853,7 +4853,7 @@ window.RX = {
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -4861,7 +4861,7 @@ window.RX = {
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -4888,7 +4888,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -4896,7 +4896,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -4904,7 +4904,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -4917,7 +4917,7 @@ window.RX = {
     },
     {
       "autor": "Marli",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO nº 003/2025",
       "ementa": "Cria Galeria Lilás",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2025Integra",
@@ -4928,7 +4928,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -4936,7 +4936,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -4944,7 +4944,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -4952,7 +4952,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -4960,7 +4960,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -4968,7 +4968,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 004/2025",
       "ementa": "Dispõe sobre a publicidade e divulgação prévia mensal no site do Município de Ibaiti do cronograma de todas as ações e serviços executados com os maquinários, equipamentos, veículos e implementos da municipalidade.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4204/projeto-de-lei-n-0042025-3"
     },
     {
@@ -4976,7 +4976,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 005/2025",
       "ementa": "Dispõe sobre as diretrizes para permitir o aleitamento materno no âmbito das instituições de Ensino Infantil, no Município de Ibaiti, Estado do Paraná.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4205/projeto-de-lei-n-0052025-4"
     },
     {
@@ -4984,7 +4984,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -4992,7 +4992,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     },
     {
@@ -5000,7 +5000,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -5008,7 +5008,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 201 de 25 de maio de 2026",
       "ementa": "serviço de controle e combate às formigas na Praça Júlio Farah, tendo em vista a grande proliferação dos insetos no local, causando transtornos aos frequentadores e à população que utiliza diariamente o espaço público.",
-      "status": "Indicação 201Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12954/indicacao-n-201-de-25-de-maio-de-2026"
     },
     {
@@ -5016,7 +5016,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -5024,7 +5024,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -5032,7 +5032,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 71 DE 19/02/2026",
       "ementa": "roçada no campo, podas das árvores e retirada de galhos no Bairro Patrimônio do Café.",
-      "status": "Indicação 71Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12246/indicacao-n-71-de-19022026"
     },
     {
@@ -5040,7 +5040,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 72 de 19/02/2026",
       "ementa": "patrolamento e cascalhamento na Vila Rural Ananias Costa, no Bairro Patrimônio do Café.",
-      "status": "Indicação 72Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12247/indicacao-de-n-72-de-19022026"
     },
     {
@@ -5048,7 +5048,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 73 de 19/02/2026",
       "ementa": "patrolamento e cascalhamento na estrada do Bairro Patrimônio do Café.",
-      "status": "Indicação 73Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12248/indicacao-n-73-de-19022026"
     },
     {
@@ -5056,7 +5056,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 074 de 19/02/2026",
       "ementa": "patrolamento e cascalhamento bairro santa helena",
-      "status": "Indicação 74Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12249/indicacao-de-n-074-de-19022026"
     },
     {
@@ -5064,7 +5064,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 075 de 19/02/2026",
       "ementa": "patrolamento e cascalhamento bairro ipiranguinha",
-      "status": "Indicação 75Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12250/indicacao-de-n-075-de-19022026"
     },
     {
@@ -5080,7 +5080,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 095 de 19/02/2026",
       "ementa": "pavimentação asfáltica do Bairro Patrimônio do Café até o Bairro Santa Helena, com ligação até a PR-531.",
-      "status": "Indicação 95Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12281/indicacao-de-n-095-de-19022026"
     },
     {
@@ -5088,7 +5088,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 094 de 19/02/2026",
       "ementa": "pavimentação asfáltica na Vila Rural Ananias Costa, no Bairro Patrimônio do Café.",
-      "status": "INDICAÇÃO 94Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12280/indicacao-de-n-094-de-19022026"
     },
     {
@@ -5096,7 +5096,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 093 de 19/02/2026",
       "ementa": "academia ao ar livre junto à UBS Suzimar Rodrigues de Melo, no Bairro Patrimônio do Café.",
-      "status": "Indicação 93Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12279/indicacao-de-n-093-de-19022026"
     },
     {
@@ -5104,7 +5104,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 092 de 19/02/2026",
       "ementa": "reforma e ampliação da UBS Suzimar Rodrigues de Melo, no Bairro Patrimônio do Café, com implantação de sala de atendimento odontológico equipada com todos os equipamentos necessários.",
-      "status": "Indicação 92Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12278/indicacao-de-n-092-de-19022026"
     },
     {
@@ -5112,7 +5112,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 091 de 19/02/2026",
       "ementa": "manutenção na ponte próxima ao Ipirangão.",
-      "status": "Indicação 91Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12277/indicacao-de-n-091-de-19022026"
     },
     {
@@ -5120,7 +5120,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 090 de 19/02/2026",
       "ementa": "manutenção na ponte próxima à propriedade do Sr. Dacir.",
-      "status": "Indicação 90Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12265/indicacao-de-n-090-de-19022026"
     },
     {
@@ -5128,7 +5128,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 089 de 19/02/2026",
       "ementa": "manutenção na ponte próxima à propriedade do Sr. Hudson, considerando o risco às pessoas que transitam diariamente pelo local.",
-      "status": "Indicação 89Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12264/indicacao-de-n-089-de-19022026"
     },
     {
@@ -5136,7 +5136,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 088 de 19/02/2026",
       "ementa": "estudo técnico visando a implantação de lixeiras estratégicas no Município de Ibaiti.",
-      "status": "Indicação 88Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12263/indicacao-de-n-088-de-19022026"
     },
     {
@@ -5144,7 +5144,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 087 de 19/02/2026",
       "ementa": "manutenção no poço artesiano do Bairro São Roque do Bugio, tendo em vista que a falta de manutenção vem ocasionando frequentes interrupções no abastecimento de água.",
-      "status": "Indicação 87Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12262/indicacao-de-n-087-de-19022026"
     },
     {
@@ -5152,7 +5152,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 086 de 19/02/2026",
       "ementa": "melhorias na entrada do Bairro Patrimônio do Café, com implantação de redutor de velocidade e iluminação adequada, considerando o intenso fluxo de veículos, inclusive com saída de ônibus escolar várias vezes ao dia.",
-      "status": "Indicação 86Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12261/indicacao-de-n-086-de-19022026"
     },
     {
@@ -5160,7 +5160,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 085 de 19/02/2026",
       "ementa": "melhorias no trevo do Alto da Cidade, com instalação de redutor de velocidade (lombada) e iluminação adequada, tendo em vista que no local vêm ocorrendo vários acidentes, inclusive com vítimas fatais.",
-      "status": "Indicação 85Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12260/indicacao-de-n-085-de-19022026"
     },
     {
@@ -5168,7 +5168,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 084 de 19/02/2026",
       "ementa": "conserto de um buraco na Rua Hermelindo Marodin, nº 1063, no Alto da Cidade.",
-      "status": "Indicação 84Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12259/indicacao-de-n-084-de-19022026"
     },
     {
@@ -5176,7 +5176,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 083 de 19/02/2026",
       "ementa": "caçamba de lixo na Feira da Lua e Sol, considerando que não há local adequado para descarte dos resíduos.",
-      "status": "Indicação 83Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12258/indicacao-de-n-083-de-19022026"
     },
     {
@@ -5184,7 +5184,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 082 de 19/02/2026",
       "ementa": "construída área de lazer com instalação de parquinho infantil para as crianças no Bairro Mãe Rainha, ao lado do projeto do antigo Ginásio de Esportes.",
-      "status": "Indicação 82Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12257/indicacao-de-n-082-de-19022026"
     },
     {
@@ -5200,7 +5200,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 080/2026 de 19/02/2026",
       "ementa": "patrolamento e cascalhamento no sentido da Pedreira do Sr. Paulo, no Bairro Fazendinha.",
-      "status": "Indicação 80Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12255/indicacao-de-n-0802026-de-19022026"
     },
     {
@@ -5216,7 +5216,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 078 de 19/02/2026",
       "ementa": "patrolamento e cascalhamento na estrada dos Bairros Carneiro e Figueira Branca.",
-      "status": "Indicação 78Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12253/indicacao-de-n-078-de-19022026"
     },
     {
@@ -5224,7 +5224,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 077 de 19/02/2026",
       "ementa": "cascalhamento e patrolamento bairro britador",
-      "status": "Indicação 77Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12252/indicacao-de-n-077-de-19022026"
     },
     {
@@ -5232,7 +5232,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 076 de 19/02/2026",
       "ementa": "patrolamento e cascalhamento bairro do campeiro",
-      "status": "Indicação 76Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12251/indicacao-de-n-076-de-19022026"
     },
     {
@@ -5240,7 +5240,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 070 de 19/02/2026",
       "ementa": "roçada da estrada que se inicia na BR-153 até a Vila Rural Ananias Costa, no Bairro Patrimônio do Café.",
-      "status": "Indicação 70Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12245/indicacao-de-n-070-de-19022026"
     },
     {
@@ -5248,15 +5248,15 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
@@ -5264,7 +5264,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
@@ -5272,12 +5272,12 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -5285,10 +5285,10 @@ window.RX = {
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Tadeu de Jesus Salomão para 2026",
       "ementa": "Emendas Impositivas do vereador Tadeu de Jesus Salomão para 2026",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12150/tadeu-de-jesus-salomao-para-2026"
     },
     {
@@ -5296,7 +5296,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
@@ -5304,7 +5304,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSO Nº 004-2025",
       "ementa": "Aplausos ao estudante Ryan Luiz da Rosa Pereira pelo Intercâmbio realizado no Canadá.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11111/mocao-de-aplauso-n-004-2025"
     },
     {
@@ -5312,7 +5312,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 304-2025",
       "ementa": "lombada na Rua Júlio Barbosa Ribas n.378, Bairro Serra Dourada",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11116/indicacao-n-304-2025"
     },
     {
@@ -5320,7 +5320,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 297-2025",
       "ementa": "roçada no final da Av. Gov. Paulo Cruz Pimentel",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11059/indicacao-n-297-2025"
     },
     {
@@ -5328,7 +5328,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 298-2025",
       "ementa": "placas de sinalização no trecho pavimentado no Patrimônio do Café",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11060/indicacao-n-298-2025"
     },
     {
@@ -5336,7 +5336,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 287-2025",
       "ementa": "Colocação de tampa nos Bueiros - Patrimônio do Café",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11010/indicacao-n-287-2025"
     },
     {
@@ -5344,7 +5344,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 276-2025",
       "ementa": "roçada do Campo do Patrimônio do Café.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10916/indicacao-n-276-2025"
     },
     {
@@ -5352,7 +5352,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 279-2025",
       "ementa": "recape asfáltico de todas as Ruas do Bairro Cohapar.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10920/indicacao-n-279-2025"
     },
     {
@@ -5360,7 +5360,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 278-2025",
       "ementa": "patrolamento e cascalhamento da estrada abaixo do Asilo.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10919/indicacao-n-278-2025"
     },
     {
@@ -5368,7 +5368,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 277-2025",
       "ementa": "compra de uma máquina de lavar com calandra para o Hospital Municipal",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10918/indicacao-n-277-2025"
     },
     {
@@ -5376,7 +5376,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 275-2025",
       "ementa": "roçada na beirada da estrada BR 153 até a Vila Rural do Patrimônio de Café",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10915/indicacao-n-275-2025"
     },
     {
@@ -5384,7 +5384,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -5392,7 +5392,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 271-2025",
       "ementa": "o recape asfáltico de todas as Ruas do Bairro João Edmundo de Carvalho.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10885/indicacao-n-271-2025"
     },
     {
@@ -5400,7 +5400,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -5408,7 +5408,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 238-2025",
       "ementa": "O Vereador que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que se feita cascalhamento e limpeza do estacionamento da UBS Airton Ferreira de Mello no Bairro Cohapar",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10604/indicacao-n-238-2025"
     },
     {
@@ -5416,7 +5416,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 237-2025",
       "ementa": "Os Vereadores que esta subscrevem, requerem que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja feito um centro recreativo e esportivo na praça Júlio Faráh.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10603/indicacao-n-237-2025"
     },
     {
@@ -5565,7 +5565,7 @@ window.RX = {
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -5573,7 +5573,7 @@ window.RX = {
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -5581,23 +5581,23 @@ window.RX = {
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -5605,7 +5605,7 @@ window.RX = {
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -5613,7 +5613,7 @@ window.RX = {
     },
     {
       "autor": "Tadeu Melancia",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -5632,7 +5632,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 004, DE 02 DE MARÇO DE 2026.",
       "ementa": "Declara de utilidade pública a Associação Ibaitiense de Autistas, Pais e Amigos de Pessoas com Transtorno do Espectro Autista-AITEA.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4927/projeto-de-lei-n-004-de-02-de-marco-de-2026"
     },
     {
@@ -5648,7 +5648,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -5656,7 +5656,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -5664,7 +5664,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -5680,7 +5680,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -5688,7 +5688,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -5696,7 +5696,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -5704,7 +5704,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -5712,7 +5712,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -5720,7 +5720,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -5728,7 +5728,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     },
     {
@@ -5736,7 +5736,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -5744,7 +5744,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -5752,7 +5752,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -5760,7 +5760,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 170, de 21/04/2026",
       "ementa": "revitalização da Unidade Básica de Saúde da Mulher, com melhorias estruturais, manutenção predial e adequações necessárias, visando melhores condições de atendimento à população e de trabalho aos profissionais da saúde.",
-      "status": "Indicação 170Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12788/indicacao-n-170-de-21042026"
     },
     {
@@ -5768,7 +5768,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 171, de 21/04/2026",
       "ementa": "realizado pedido junto ao Departamento Nacional de Infraestrutura de Transportes – DNIT, objetivando melhorias no acesso ao Bairro Turma 30, contemplando ambos os lados da estrada, garantindo melhores condições de trafegabilidade e segurança aos moradores e usuários da via.",
-      "status": "Indicação 171Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12789/indicacao-n-171-de-21042026"
     },
     {
@@ -5776,7 +5776,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 160, de 26 de março de 2026",
       "ementa": "realizada atividade itinerante do CRAS, com atendimento periódico nos distritos do município, visando ampliar o acesso da população aos serviços socioassistenciais.",
-      "status": "INDICAÇÃO Nº 160Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12675/indicacao-n-160-de-26-de-marco-de-2026"
     },
     {
@@ -5784,7 +5784,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 179, de 30 de abril de 2026",
       "ementa": "os procedimentos necessários visando à regularização do Estatuto da Guarda Mirim, promovendo sua atualização jurídica e administrativa, garantindo a plena legalidade institucional, o adequado funcionamento da entidade e a continuidade das atividades sociais, educativas e de formação cidadã desenvolvidas junto aos adolescentes do município.",
-      "status": "Indicação 179Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12813/indicacao-n-179-de-30-de-abril-de-2026"
     },
     {
@@ -5808,7 +5808,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 150, de 23/03/2026",
       "ementa": "instalação de bebedouro multifuncional, proposta que contempla também animais de estimação.",
-      "status": "INDICAÇÃO Nº 150Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12621/indicacao-n-150-de-23032026"
     },
     {
@@ -5816,7 +5816,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 149, de 23/03/2026",
       "ementa": "lombada elevada próxima ao Mercado Pedro Machado, visando atender as crianças que saem da escola, especialmente os alunos da Escola Municipal Clovete.",
-      "status": "Indicação 149Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12620/indicacao-n-149-de-23032026"
     },
     {
@@ -5824,7 +5824,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 124 de 25/02/2026",
       "ementa": "implantação  de  cronograma de limpeza pública e recolhimento de entulhos no município de Ibaiti.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12399/indicacao-de-n-124-de-25022026"
     },
     {
@@ -5832,7 +5832,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 123 de 25/02/2026",
       "ementa": "colocação de bancos nas pistas de saúde do Município.",
-      "status": "Indicação 123Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12398/indicacao-de-n-123-de-25022026"
     },
     {
@@ -5840,7 +5840,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 122 de 25/02/2026",
       "ementa": "instalação de ar-condicionado na sala de consulta da UBS Dirceu Silveira Bueno.",
-      "status": "Indicação 122Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12397/indicacao-de-n-122-de-25022026"
     },
     {
@@ -5848,7 +5848,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 106 de 19/12/2026",
       "ementa": "realização de roçagem e limpeza na Rua Arthur Santos, a partir da esquina do Centro Recreativo Fabrício Leal, seguindo no sentido do Posto Transbrasiliana.",
-      "status": "Indicação 106Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12292/indicacao-n-106-de-19122026"
     },
     {
@@ -5856,7 +5856,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 108 de 19/02/2026",
       "ementa": "operação tapa-buracos no cruzamento da Rua João Leandro com a Rua José Claudomiro Gonçalves.",
-      "status": "Indicação 108Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12294/indicacao-n-108-de-19022026"
     },
     {
@@ -5864,7 +5864,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 109 de 20/02/2026",
       "ementa": "pintura do muro da Escola Monteiro Lobato, a revitalização do espaço destinado ao parquinho e a substituição dos brinquedos existentes.",
-      "status": "Indicação 109Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12295/indicacao-n-109-de-20022026"
     },
     {
@@ -5872,7 +5872,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 107 de 19/02/2026",
       "ementa": "realização de roçagem e limpeza na Rua Alcebides Rodrigues de Mello e na Rua Amado Fortunato Heidgger, no Bairro João Edmundo de Carvalho.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12293/indicacao-n-107-de-19022026"
     },
     {
@@ -5880,7 +5880,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 101 de 19/02/2026",
       "ementa": "operação tapa-buracos em todas as ruas do Bairro Oscar Arieta Negrão.",
-      "status": "Indicação 101Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12287/indicacao-de-n-101-de-19022026"
     },
     {
@@ -5888,7 +5888,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 100 de 19/02/2026",
       "ementa": "estudo técnico e providências necessárias para a implantação de um CAPS – Centro de Atenção Psicossocial – no Município.",
-      "status": "Indicação 100Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12286/indicacao-de-n-100-de-19022026"
     },
     {
@@ -5896,7 +5896,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 23 DE 29/01/2026",
       "ementa": "faça limpeza da fossa e da caixa d’água da UBS Gralha Azul.",
-      "status": "Indicação 23Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12178/indicacao-23-de-29012026"
     },
     {
@@ -5904,15 +5904,15 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
@@ -5920,7 +5920,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 25 DE 29/01/2026",
       "ementa": "disponibilização de veículo às equipes de Saúde da Família, em sistema de rodízio entre as UBS por proximidade urbana, visando maior efetividade nas atividades dos profissionais.",
-      "status": "Indicação 25Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12180/indicacao-25-de-29012026"
     },
     {
@@ -5928,7 +5928,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
@@ -5936,7 +5936,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 21 de 29/01/2026",
       "ementa": "reparos na UBS Prefeito Dirceu Silveira Bueno – Gralha Azul, com instalação de grades nas portas e janelas e reposição das calhas furtadas.",
-      "status": "Indicação 21Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12176/indicacao-21-de-29012026"
     },
     {
@@ -5944,7 +5944,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 24 DE 29/01/2026",
       "ementa": "roçagem no bairro Serra Dourada.",
-      "status": "Indicação 24Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12179/indicacao-24-de-29012026"
     },
     {
@@ -5952,7 +5952,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 20 DE 29/01/2026",
       "ementa": "implantação de agenda do carro da saúde, deixando-o disponível ao agente comunitário para visitas em loco aos pacientes do Patrimônio do Café e região de cobertura.",
-      "status": "Indicação 20Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12175/indicacao-20-de-29012026"
     },
     {
@@ -5960,7 +5960,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 22 DE 29/01/2026",
       "ementa": "faça reparos na UBS Prefeito Dirceu Silveira Bueno – Gralha Azul, com instalação de grades nas portas e janelas e reposição das calhas furtadas.",
-      "status": "Indicação 22Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12177/indicacao-22-de-29012026"
     },
     {
@@ -5968,7 +5968,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 19 DE 29/01/2026",
       "ementa": "atendimento à Vila Rural no Patrimônio do Café com a presença de trator agrícola para atender a demanda dos agricultores.",
-      "status": "Indicação 19Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12174/indicacao-19-de-29012026"
     },
     {
@@ -5976,12 +5976,12 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -5992,7 +5992,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 343, de 11/12/2025",
       "ementa": "Lombada José G. Dias",
-      "status": "Indicação 343Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11411/indicacao-de-n-343-de-11122025"
     },
     {
@@ -6000,7 +6000,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº. 342 DE 11/12/2025",
       "ementa": "Lombada Teófilo C. Dib",
-      "status": "Indicação 342Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11421/indicacao-de-n-342-de-11122025"
     },
     {
@@ -6008,15 +6008,15 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Tania Pereira da Silva Constantino para 2026",
       "ementa": "Emendas Impositivas da vereadora Tânia Pereira da Silva Constantino para 2026",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12151/tania-pereira-da-silva-constantino-para-2026"
     },
     {
@@ -6024,7 +6024,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 292-2025",
       "ementa": "implante estação de hidratação humana e animal, para espaços públicos",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11041/indicacao-n-292-2025"
     },
     {
@@ -6032,7 +6032,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -6040,7 +6040,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 261-2025",
       "ementa": "contratação de mais um fisioterapeuta para atendimento na UBS da Vila Guay.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10817/indicacao-n-261-2025"
     },
     {
@@ -6048,7 +6048,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 262-2025",
       "ementa": "contratação de mais um fisioterapeuta para atendimento no UBS Central",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10818/indicacao-n-262-2025"
     },
     {
@@ -6056,7 +6056,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 256-2025",
       "ementa": "A Vereadora que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências legais junto à Secretaria Municipal de Saúde para que seja disponibilizado consultas com ginecologista no período noturno para o atendimento de mulheres, com a apresentação de cronograma de atendimento para a devida divulgação",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10797/indicacao-n-256-2025"
     },
     {
@@ -6064,7 +6064,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 250-2025",
       "ementa": "Instalação de uma horta comunitária junto com a cozinha comunitária, no centro de distribuição",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10753/indicacao-n-250-2025"
     },
     {
@@ -6072,7 +6072,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -6080,7 +6080,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 244-2025",
       "ementa": "As Vereadoras que esta subscrevem, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação que através da Secretaria Municipal competente, una-se ao movimento estadual para realizar em nosso Município a Caminhada do Meio-Dia – 2025, que acontecerá em data de 22 de julho, data marcada como o Dia Estadual de Combate ao Feminicídio.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10635/indicacao-n-244-2025"
     },
     {
@@ -6293,7 +6293,7 @@ window.RX = {
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Indicação nº 87/2025",
       "ementa": "PROJETO DE LEI QUE ALTERE A NOMENCLATURA E ATRIBUIÇÕES DA SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL, PARA INCLUIR PARTICIPAÇÃO DOS DIREITOS DAS MULHERES",
       "status": "Aprovado",
@@ -6309,7 +6309,7 @@ window.RX = {
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -6317,7 +6317,7 @@ window.RX = {
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -6325,23 +6325,23 @@ window.RX = {
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -6349,7 +6349,7 @@ window.RX = {
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -6357,7 +6357,7 @@ window.RX = {
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -6384,7 +6384,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -6392,7 +6392,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -6400,7 +6400,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -6421,7 +6421,7 @@ window.RX = {
     },
     {
       "autor": "Tania Constantino",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO nº 003/2025",
       "ementa": "Cria Galeria Lilás",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2025Integra",
@@ -6432,7 +6432,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -6440,7 +6440,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -6448,7 +6448,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -6456,7 +6456,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -6464,7 +6464,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -6472,7 +6472,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 005/2025",
       "ementa": "Dispõe sobre as diretrizes para permitir o aleitamento materno no âmbito das instituições de Ensino Infantil, no Município de Ibaiti, Estado do Paraná.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4205/projeto-de-lei-n-0052025-4"
     },
     {
@@ -6480,7 +6480,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -6488,7 +6488,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     },
     {
@@ -6496,7 +6496,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 199 de 25 de maio de 2026 de autoria da 19ª legislatura:",
       "ementa": "transferência do Terminal Rodoviário Municipal para área localizada às margens da BR-153, objetivando melhorar o fluxo de veículos, facilitar o acesso de ônibus intermunicipais e interestaduais, proporcionar maior segurança aos usuários e contribuir para a mobilidade urbana do município.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12952/indicacao-n-199-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -6504,7 +6504,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 207 de 25 de maio de 2026",
       "ementa": "patrolamento e cascalhamento na estrada de acesso ao Sítio Recanto Feliz, localizado na região do Banco da Terra, bairro Vassoural, neste município, visando garantir melhores condições de tráfego e segurança aos moradores e produtores rurais da localidade.",
-      "status": "Indicação 207Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12960/indicacao-n-207-de-25-de-maio-de-2026"
     },
     {
@@ -6512,7 +6512,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 200 de 25 de maio de 2026 de autoria da 19ª legislatura",
       "ementa": "ampliação e adequação da estrutura do atual Terminal Rodoviário Municipal, visando possibilitar a instalação da UBS Central no local, garantindo melhores condições de atendimento à população, acessibilidade e espaço físico adequado aos usuários do sistema público de saúde.",
-      "status": "Indicação 200Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12953/indicacao-n-200-de-25-de-maio-de-2026-de-autoria-da-19-legislatura"
     },
     {
@@ -6520,7 +6520,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 196, de 18 de maio de 2026",
       "ementa": "reposição e manutenção das tampas de bueiros localizados na esquina das ruas Nilo Sampaio com Teófilo Dias da Silveira, nas proximidades da Big Pão, neste Município.",
-      "status": "Indicação 196Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12912/indicacao-n-196-de-18-de-maio-de-2026"
     },
     {
@@ -6528,7 +6528,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
       "ementa": "MOÇÃO DE APLAUSOS Nº 02, DE 13 DE MAIO DE 2026",
-      "status": "Moção 02Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12935/mocao-de-aplausos-n-02-de-13-de-maio-de-2026"
     },
     {
@@ -6544,7 +6544,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 160, de 26 de março de 2026",
       "ementa": "realizada atividade itinerante do CRAS, com atendimento periódico nos distritos do município, visando ampliar o acesso da população aos serviços socioassistenciais.",
-      "status": "INDICAÇÃO Nº 160Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12675/indicacao-n-160-de-26-de-marco-de-2026"
     },
     {
@@ -6552,7 +6552,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 155, de 23/03/2026",
       "ementa": "reforma do parque infantil e da academia ao ar livre localizados no D.E.R.",
-      "status": "Indicação 155Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12626/indicacao-n-155-de-23032026"
     },
     {
@@ -6560,7 +6560,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 154, de 23/03/2026",
       "ementa": "patrolamento e cascalhamento da estrada que desce da residência do Senhor João Batista em direção a São João do Paraíso, passando pela entrada da Fazenda 70 Alqueires.",
-      "status": "Indicação 154Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12625/indicacao-n-154-de-23032026"
     },
     {
@@ -6568,7 +6568,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 153, de 23/03/2026",
       "ementa": "patrolamento das ruas do Patrimônio São João do Paraíso.",
-      "status": "Indicação 153Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12624/indicacao-n-153-de-23032026"
     },
     {
@@ -6576,7 +6576,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 157, de 23/03/2026",
       "ementa": "reforma do posto de saúde do Vassoural.",
-      "status": "INDICAÇÃO Nº 157Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12628/indicacao-n-157-de-23032026"
     },
     {
@@ -6584,7 +6584,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 156, de 23/03/2026",
       "ementa": "realização de operação tapa-buracos na Rua Marcelino Cipriano da Silva.",
-      "status": "INDICAÇÃO Nº 156Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12627/indicacao-n-156-de-23032026"
     },
     {
@@ -6592,7 +6592,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 124 de 25/02/2026",
       "ementa": "implantação  de  cronograma de limpeza pública e recolhimento de entulhos no município de Ibaiti.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12399/indicacao-de-n-124-de-25022026"
     },
     {
@@ -6600,7 +6600,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 096 de 19/02/2026",
       "ementa": "colocação de grades nas portas e janelas da UBS Antônio Carlos da Silva, no Bairro DER.",
-      "status": "Indicação 96Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12282/indicacao-de-n-096-de-19022026"
     },
     {
@@ -6608,7 +6608,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 102 de 19/02/2026",
       "ementa": "cobertura e reforma da quadra de esportes do Bairro Vassoural.",
-      "status": "Indicação 102Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12288/indicacao-de-n-102-de-19022026"
     },
     {
@@ -6616,7 +6616,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 101 de 19/02/2026",
       "ementa": "operação tapa-buracos em todas as ruas do Bairro Oscar Arieta Negrão.",
-      "status": "Indicação 101Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12287/indicacao-de-n-101-de-19022026"
     },
     {
@@ -6624,7 +6624,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 097 de 19/02/2026",
       "ementa": "disponibilizado veículo para transporte de pacientes que necessitam realizar consultas médicas no Município de Cornélio Procópio.",
-      "status": "Indicação 97Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12283/indicacao-de-n-097-de-19022026"
     },
     {
@@ -6632,7 +6632,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 098 de 19/02/2026",
       "ementa": "disponibilizadas 02 (duas) lixeiras para o pátio da Igreja do Bairro São João do Paraíso, no Vassoural.",
-      "status": "Indicação 98Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12284/indicacao-de-n-098-de-19022026"
     },
     {
@@ -6640,7 +6640,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 100 de 19/02/2026",
       "ementa": "estudo técnico e providências necessárias para a implantação de um CAPS – Centro de Atenção Psicossocial – no Município.",
-      "status": "Indicação 100Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12286/indicacao-de-n-100-de-19022026"
     },
     {
@@ -6648,7 +6648,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 099 de 19/02/2026",
       "ementa": "operação tapa-buracos e revitalização das ruas do Bairro Gralha Azul.",
-      "status": "Indicação 99Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12285/indicacao-de-n-099-de-19022026"
     },
     {
@@ -6656,7 +6656,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 60 DE 05/02/2026",
       "ementa": "calçamento com pavimentação da Rua Antônio Cenra, no Bairro Vassoural.",
-      "status": "Indicação 60Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12216/indicacao-60-de-05022026"
     },
     {
@@ -6664,7 +6664,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 62 DE 05/02/2026",
       "ementa": "reforma de duas pontes no Bairro Santa Maria, localizado na região do Vassoural.",
-      "status": "Indicação 62Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12218/indicacao-62-de-05022026"
     },
     {
@@ -6672,7 +6672,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 61 DE 05/02/2026",
       "ementa": "calçamento com pavimentação da Rua Pedro Leonardo dos Santos.",
-      "status": "Indicação 61Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12217/indicacao-61-de-05022026"
     },
     {
@@ -6680,7 +6680,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 59 DE 05/02/2026",
       "ementa": "instalação de um Banco de Sangue na Fundação Hospitalar de Saúde Municipal de Ibaiti.",
-      "status": "Indicação 59Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12215/indicacao-59-de-05022026"
     },
     {
@@ -6688,7 +6688,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 58 DE 05/02/2026",
       "ementa": "dois ônibus para transporte de pacientes ao Município de Jacarezinho, sendo um com saída de Ibaiti no período da manhã e retorno ao meio-dia, e outro com saída às 11h e retorno no período da tarde.",
-      "status": "Indicação 58Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12214/indicacao-58-de-05022026"
     },
     {
@@ -6696,7 +6696,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 57 DE 05/02/2026",
       "ementa": "contratação de uma Técnica de Enfermagem para o Posto de Saúde do Bairro Vassoural.",
-      "status": "Indicação 57Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12213/indicacao-57-de-05022026"
     },
     {
@@ -6704,7 +6704,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 54 DE 05/02/2026",
       "ementa": "a instalação de um parque infantil no Bairro Paulistinha",
-      "status": "Indicação 54Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12210/indicacao-54-de-05022026"
     },
     {
@@ -6712,7 +6712,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 56 DE 05/02/2026",
       "ementa": "reforma do Posto de Saúde do Bairro Paulistinha.",
-      "status": "Indicação 56Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12212/indicacao-56-de-05022026"
     },
     {
@@ -6720,7 +6720,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 55 DE 05/02/2026",
       "ementa": "instalação de uma academia ao ar livre no Bairro Paulistinha.",
-      "status": "Indicação 55Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12211/indicacao-55-de-05022026"
     },
     {
@@ -6728,7 +6728,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 53 DE 05/02/2026",
       "ementa": "instalação de um parque infantil na Praça do Bairro Vassoural.",
-      "status": "Indicação 53Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12209/indicacao-53-de-05022026"
     },
     {
@@ -6736,7 +6736,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 28 DE 29/01/2026",
       "ementa": "patrolamento e cascalhamento das estradas da Vila Rural, Banco da Terra, Santos Reis, Banco da Terra José Geraldo, estrada do bairro dos Leonardos saindo no Mercado Estrela do Norte, Fazenda Velha, estrada do bairro Choquinho e estrada da Santa Maria, no Distrito do Vassoural.",
-      "status": "Indicação 28Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12183/indicacao-28-de-29012026"
     },
     {
@@ -6744,15 +6744,15 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 27 de 29/01/2026",
       "ementa": "aplicação da Lei Complementar nº 226/2026 neste Município, assegurando os direitos de todos os servidores públicos municipais.",
-      "status": "Indicação 27Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12182/indicacao-27-de-29012026"
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 26 DE 29/01/2026",
       "ementa": "Projeto de Lei que torne ponto facultativo o dia do Aniversário de todos os Servidores Públicos Municipais.",
-      "status": "Indicação 26Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12181/indicacao-26-de-29012026"
     },
     {
@@ -6760,7 +6760,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 45 DE 29/01/2026",
       "ementa": "pagamento de Vale Refeição a todos os servidores municipais.",
-      "status": "Indicação 45Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12200/indicacao-45-de-29012026"
     },
     {
@@ -6768,7 +6768,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 29 DE 29/01/2026",
       "ementa": "contratação de um(a) fisioterapeuta para atendimento no Posto de Saúde Central.",
-      "status": "Indicação 29Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12184/indicacao-29-de-29012026"
     },
     {
@@ -6784,12 +6784,12 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO 38 DE 29/01/2026",
       "ementa": "revitalização da Rua Tertuliano Moura.",
-      "status": "Indicação 38Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12193/indicacao-38-de-29012026"
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Emenda Impositiva de Bancada para 2026",
       "ementa": "Emenda Impositiva de Bancada para o exercício de 2026",
       "status": "Aprovado",
@@ -6800,7 +6800,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 350, de 11/12/2025",
       "ementa": "patrolamento da estrada banco da terra indo ao José Geraldo.",
-      "status": "Indicação 350Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11418/indicacao-de-n-350-de-11122025"
     },
     {
@@ -6808,7 +6808,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 346, de 11/12/2025",
       "ementa": "conserto de 2 pontes da estrada do choquinho",
-      "status": "Indicação 346Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11414/indicacao-de-n-346-de-11122025"
     },
     {
@@ -6816,7 +6816,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 347, de 11/12/2025.",
       "ementa": "Conserto de 2 pontes da estrada da Santa Maria",
-      "status": "Indicação 347Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11415/indicacao-de-n-347-de-11122025"
     },
     {
@@ -6824,7 +6824,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 348, de 11/12/2025",
       "ementa": "Conserto a ponte próximo à casa do seu Aristides no bairro santos Reis",
-      "status": "Indicação 348Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11416/indicacao-de-n-348-de-11122025"
     },
     {
@@ -6832,7 +6832,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO DE Nº 349, de 11/12/2025",
       "ementa": "Passar o rolo na estrada Santa Maria",
-      "status": "Indicação 349Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11417/indicacao-de-n-349-de-11122025"
     },
     {
@@ -6840,15 +6840,15 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de aplausos nº. 009 de 01/12/2025",
       "ementa": "Moção de Aplausos aos ciclistas.",
-      "status": "Moção 09Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12276/mocao-de-aplausos-n-009-de-01122025"
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Vera Lúcia Siqueira dos Santos para 2026",
       "ementa": "Emendas Impositivas da vereadora Vera Lúcia Siqueira dos Santos para 2026",
-      "status": "Emendas Impositivas 2026Aprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/12152/vera-lucia-siqueira-dos-santos-para-2026"
     },
     {
@@ -6856,7 +6856,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 300-2025",
       "ementa": "lombada na Rua Ver. Manoel de Moura Bueno",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11112/indicacao-n-300-2025"
     },
     {
@@ -6864,7 +6864,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 302-2025",
       "ementa": "reforma de uma ponte na Santa Maria no Distrito do Vassoural.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11114/indicacao-n-302-2025"
     },
     {
@@ -6872,7 +6872,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 301-2025",
       "ementa": "reforma das mesas e colocação de bancos na pracinha do Distrito do Vassoural.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11113/indicacao-n-301-2025"
     },
     {
@@ -6880,7 +6880,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 288-2025",
       "ementa": "grades de proteção nas portas e nas janelas de todos os postos de saúde",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/11011/indicacao-n-288-2025"
     },
     {
@@ -6888,7 +6888,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 274-2025",
       "ementa": "para seja colocado uma lixeira e instalação de uma caixa d’água, como também a manutenção dos banheiros, da pia e do fogão no projeto Piá",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10887/indicacao-n-274-2025"
     },
     {
@@ -6896,7 +6896,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 268-2025",
       "ementa": "operação tapa buraco na Rua Otarico Bueno e na Rua da UBS do Bairro Gralha Azul",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10882/indicacao-n-268-2025"
     },
     {
@@ -6904,7 +6904,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 262-2025",
       "ementa": "contratação de mais um fisioterapeuta para atendimento no UBS Central",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10818/indicacao-n-262-2025"
     },
     {
@@ -6912,7 +6912,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 261-2025",
       "ementa": "contratação de mais um fisioterapeuta para atendimento na UBS da Vila Guay.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10817/indicacao-n-261-2025"
     },
     {
@@ -6920,7 +6920,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 258-2025",
       "ementa": "A Vereadora que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências legais junto ao departamento competente, para que seja arrumado o vazamento de água no encanamento da Capela Mortuária no Distrito do Vassoural.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10799/indicacao-n-258-2025"
     },
     {
@@ -6928,7 +6928,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 257-2025",
       "ementa": "A Vereadora que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências legais junto ao departamento competente, para que seja arrumado o vazamento de água no encanamento do Posto odontológico no Distrito do Vassoural",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10798/indicacao-n-257-2025"
     },
     {
@@ -6936,7 +6936,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 250-2025",
       "ementa": "Instalação de uma horta comunitária junto com a cozinha comunitária, no centro de distribuição",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10753/indicacao-n-250-2025"
     },
     {
@@ -6944,7 +6944,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "Moção de Aplauso 02-2025",
       "ementa": "MOÇÃO DE APLAUSO Nº 002 DE 30 DE JUNHO DE 2025, de autoria dos vereadores da 19º Legislatura: Aplausos aos Atletas do Município de Ibaiti pelo desempenho no 71º Jogos Escolares do Paraná na Fase Regional de Pinhalão e Fase Macrorregional de Cornélio Procópio",
-      "status": "APROVADAAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10656/mocao-de-aplauso-02-2025"
     },
     {
@@ -6952,7 +6952,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 241-2025",
       "ementa": "A Vereadora que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento competente para que seja colocado iluminação de Led em todas as ruas do Vassoural, São João do Paraíso e na Vila Rural Júlio Nazário dos Santos no Vassoural.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10616/indicacao-n-241-2025"
     },
     {
@@ -6960,7 +6960,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 244-2025",
       "ementa": "As Vereadoras que esta subscrevem, nos termos do art. 95 do Regimento Interno desta Casa Legislativa, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação que através da Secretaria Municipal competente, una-se ao movimento estadual para realizar em nosso Município a Caminhada do Meio-Dia – 2025, que acontecerá em data de 22 de julho, data marcada como o Dia Estadual de Combate ao Feminicídio.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10635/indicacao-n-244-2025"
     },
     {
@@ -6968,7 +6968,7 @@ window.RX = {
       "tipo": "Indicação / Proposição",
       "titulo": "INDICAÇÃO Nº 231-2025",
       "ementa": "A Vereadora que esta subscreve, requer que após a tramitação regimental, seja encaminhada ao Excelentíssimo Senhor Prefeito como indicação, a tomada de providências junto ao Departamento para que seja colocado grade de proteção nas boca de lobo na Rua Francisco Zanineti em frente ao Mercado Mendes no Gralha Azul.",
-      "status": "APROVADOAprovado",
+      "status": "Aprovado",
       "link": "https://camaraibaiti.pr.gov.br/proposicao/view/10561/indicacao-n-231-2025"
     },
     {
@@ -7301,7 +7301,7 @@ window.RX = {
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Indicação nº 87/2025",
       "ementa": "PROJETO DE LEI QUE ALTERE A NOMENCLATURA E ATRIBUIÇÕES DA SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL, PARA INCLUIR PARTICIPAÇÃO DOS DIREITOS DAS MULHERES",
       "status": "Aprovado",
@@ -7381,7 +7381,7 @@ window.RX = {
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 010 DE 2026",
       "ementa": "Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotação no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 010.2026Integra",
@@ -7389,7 +7389,7 @@ window.RX = {
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO N.º 08, DE 06 DE JULHO DE 2026.",
       "ementa": "REGULAMENTA A LEI DE ACESSO À INFORMAÇÃO – LAI DE ACORDO COM A LEI FEDERAL Nº 12.527/2011, NO ÂMBITO DA CÂMARA MUNICIPAL DE IBAITI.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 008/2026Integra",
@@ -7397,23 +7397,23 @@ window.RX = {
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO Nº 06/2026.",
       "ementa": "Dispõe sobre normas de elaboração, redação, alteração, consolidação, clareza, precisão e técnica legislativa dos atos normativos da Câmara Municipal de Ibaiti, Estado do Paraná, e dá outras providências.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5883/projeto-de-resolucao-n-062026"
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 005 DE 2026",
       "ementa": "abertura de crédito adicional suplementar constante no Projeto de Resolução está sendo solicitada para suplementar a dotação orçamentária de Outros Serviços de Terceiros – Pessoa Jurídica, para reforma, pintura, manutenção e melhorias no prédio da sede da Câmara Municipal.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/5821/resolucao-005-de-2026"
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO 004, DE 25 DE MAIO DE 2026",
       "ementa": "INSTITUI O PLANO ANUAL DE FISCALIZAÇÃO DO PODER LEGISLATIVO DO MUNICÍPIO DE IBAITI, ESTADO DO PARANÁ, PARA O EXERCÍCIO DE 2026",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO 004/2026 - PARTE 1Integra",
@@ -7421,7 +7421,7 @@ window.RX = {
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "Projeto de resolução nº 02 de 18 de maio de 2026",
       "ementa": "Projeto de resolução nº 02 de 18 de maio de 2026. Dispõe sobre a abertura de Crédito Adicional Suplementar por Anulação Parcial de Dotações Orçamentárias no Orçamento da Câmara Municipal de Ibaiti para o exercício de 2026.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 02/2026Integra",
@@ -7429,7 +7429,7 @@ window.RX = {
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "RESOLUÇÃO Nº 003, DE 25 DE MAIO DE 2026",
       "ementa": "Dispõe sobre alterações no Regimento Interno da Câmara Municipal e dá outras providências.",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2026 - parte 2Integra",
@@ -7456,7 +7456,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI 003 DE 02/02/2026",
       "ementa": "DISPÕE SOBRE CÃO COMUNITÁRIO",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4891/projeto-de-lei-003-de-02022026"
     },
     {
@@ -7464,7 +7464,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo.",
       "ementa": "RESPOSIÇÃO VEREADORES",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4830/projeto-de-lei-n-002-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo"
     },
     {
@@ -7472,7 +7472,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 001, DE 20 DE JANEIRO DE 2026. Oriundo do Poder Legislativo Vereadores da 19ª Legislatura.",
       "ementa": "REPOSIÇÃO SERVIDORES CÂMARA",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4829/projeto-de-lei-n-001-de-20-de-janeiro-de-2026-oriundo-do-poder-legislativo-vereadores-da-19-legislatura"
     },
     {
@@ -7485,7 +7485,7 @@ window.RX = {
     },
     {
       "autor": "Vera do Julinho",
-      "tipo": "Projeto de Lei",
+      "tipo": "Indicação / Proposição",
       "titulo": "PROJETO DE RESOLUÇÃO nº 003/2025",
       "ementa": "Cria Galeria Lilás",
       "status": "INTEGRA - PROJETO DE RESOLUÇÃO Nº 003/2025Integra",
@@ -7496,7 +7496,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 011/2025",
       "ementa": "Crédito Adicional Especial  no orçamento da Câmara Municipal",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4366/projeto-de-lei-n-0112025-6"
     },
     {
@@ -7504,7 +7504,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 009/2025",
       "ementa": "Concede o Título de Cidadão Benemérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4355/projeto-de-lei-n-0092025-5"
     },
     {
@@ -7512,7 +7512,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 008/2025",
       "ementa": "Concede o Título de Cidadão honorário aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4354/projeto-de-lei-n-0082025-5"
     },
     {
@@ -7520,7 +7520,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 010/2025",
       "ementa": "Concede o Título de Cidadão Honorário aos Ilustres Cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4356/projeto-de-lei-n-0102025-5"
     },
     {
@@ -7528,7 +7528,7 @@ window.RX = {
       "tipo": "Moção / Homenagem",
       "titulo": "PROJETO DE LEI Nº 007/2025",
       "ementa": "Concede o Título de Honra ao Mérito aos ilustres cidadãos.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4353/projeto-de-lei-n-0072025-5"
     },
     {
@@ -7536,7 +7536,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "PROJETO DE LEI Nº 002/2025",
       "ementa": "DECLARA DE UTILIDADE PÚBLICA O CLUBE DOS DESBRAVADORES E AVENTUREIROS SUL, MANTENEDORA DO CLUBE DE DESBRAVADORES E CLUBE DE AVENTUREIROS DE IBAITI.",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4169/projeto-de-lei-n-0022025-4"
     },
     {
@@ -7544,7 +7544,7 @@ window.RX = {
       "tipo": "Projeto de Lei",
       "titulo": "Projeto de Lei Nº 001-2025",
       "ementa": "Concede reposição inflacionária aos vencimentos dos servidores do quadro próprio da Câmara Municipal de Ibaiti",
-      "status": "",
+      "status": "Em tramitação",
       "link": "https://camaraibaiti.pr.gov.br/projeto/view/4072/projeto-de-lei-n-001-2025"
     }
   ],
